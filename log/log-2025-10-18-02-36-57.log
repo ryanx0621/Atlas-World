@@ -1,0 +1,2200 @@
+[2025-10-18 02:27:50] [Info] ✅ 日誌建立成功
+[2025-10-18 02:27:50] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 02:27:51] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 02:27:51] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 02:27:51] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-18-02-27-50.log.gz
+[2025-10-18 02:27:51] [Info] 🗑️ 已刪除舊日誌
+[2025-10-18 02:27:51] [Info] Redis 正在連接...
+[2025-10-18 02:27:51] [Info] Redis 正在連接...
+[2025-10-18 02:27:51] [Info] Redis 正在連接...
+[2025-10-18 02:27:51] [Error] 導入失敗： SqlError: (conn:7535096, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1071ms
+    at module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at process.processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+[2025-10-18 02:27:51] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:51] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:51] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:52] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:52] [Warn] ❗ 未翻譯錯誤訊息： Shard 0's process exited before its Client became ready.
+[2025-10-18 02:27:52] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）Shard 0's process exited before its Client became ready.
+[2025-10-18 02:27:52] [Info] Redis 正在連接...
+[2025-10-18 02:27:52] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:53] [Info] ✅ Shard #0 已就緒
+[2025-10-18 02:27:53] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:53] [Info] Redis 正在連接...
+[2025-10-18 02:27:53] [Info] Redis 正在連接...
+[2025-10-18 02:27:53] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-18 02:27:53] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-18 02:27:53] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:53] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:53] [Info] Redis 正在連接...
+[2025-10-18 02:27:53] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:53] [Info] Redis 正在連接...
+[2025-10-18 02:27:53] [Info] Redis 正在連接...
+[2025-10-18 02:27:53] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-18 02:27:53] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-18 02:27:53] [Info] ✅ Redis 初始化完成
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:53] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:54] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:54] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:54] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:54] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:54] [Info] Redis 正在連接...
+[2025-10-18 02:27:54] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:54] [Info] Redis 正在連接...
+[2025-10-18 02:27:54] [Info] Redis 正在連接...
+[2025-10-18 02:27:54] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:54] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:54] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:54] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:54] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:54] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:54] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:55] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:55] [Info] Redis 正在連接...
+[2025-10-18 02:27:55] [Info] Redis 正在連接...
+[2025-10-18 02:27:55] [Info] Redis 正在連接...
+[2025-10-18 02:27:55] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:55] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:55] [Info] ✅ 載入啟動時間: 22.31s (22310.07ms)
+[2025-10-18 02:27:55] [Info] %s: %s Bot啟動時間 5.000s
+[2025-10-18 02:27:55] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:55] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:55] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:56] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:56] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:56] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:56] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:56] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:56] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:56] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:56] [Info] Redis 正在連接...
+[2025-10-18 02:27:56] [Info] Redis 正在連接...
+[2025-10-18 02:27:56] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-18 02:27:56] [Info] Redis 正在連接...
+[2025-10-18 02:27:57] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:57] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:57] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:57] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:57] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:57] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:57] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:57] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:57] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:57] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:57] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:57] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:58] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:58] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:58] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:58] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:58] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:58] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:58] [Info] Redis 正在連接...
+[2025-10-18 02:27:59] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:59] [Info] Redis 正在連接...
+[2025-10-18 02:27:59] [Info] Redis 正在連接...
+[2025-10-18 02:27:59] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:59] [Info] ✅ Redis 已連線
+[2025-10-18 02:27:59] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:59] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:59] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:59] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:59] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:27:59] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:27:59] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:00] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:00] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:01] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:01] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Info] Redis 正在連接...
+[2025-10-18 02:28:01] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:01] [Info] Redis 正在連接...
+[2025-10-18 02:28:01] [Info] Redis 正在連接...
+[2025-10-18 02:28:01] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:01] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:01] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:02] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:03] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:03] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:03] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:03] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:03] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:03] [Info] Redis 正在連接...
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:04] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:04] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:04] [Info] Redis 正在連接...
+[2025-10-18 02:28:04] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:04] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:04] [Info] Redis 正在連接...
+[2025-10-18 02:28:04] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:04] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:05] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:05] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:05] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:05] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:05] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:05] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:05] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:06] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:06] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Info] Redis 正在連接...
+[2025-10-18 02:28:06] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:06] [Info] Redis 正在連接...
+[2025-10-18 02:28:06] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:06] [Info] ✅ 頭像已更新
+[2025-10-18 02:28:06] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:07] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:07] [Info] Redis 正在連接...
+[2025-10-18 02:28:07] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:07] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:07] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:07] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:07] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:07] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:08] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:08] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:08] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:09] [Info] Redis 正在連接...
+[2025-10-18 02:28:09] [Info] Redis 正在連接...
+[2025-10-18 02:28:09] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:09] [Info] Redis 正在連接...
+[2025-10-18 02:28:09] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:09] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:09] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:09] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:11] [Info] Redis 正在連接...
+[2025-10-18 02:28:11] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:12] [Info] Redis 正在連接...
+[2025-10-18 02:28:12] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:12] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:12] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:12] [Info] Redis 正在連接...
+[2025-10-18 02:28:12] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:13] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:13] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:14] [Info] Redis 正在連接...
+[2025-10-18 02:28:14] [Info] Redis 正在連接...
+[2025-10-18 02:28:14] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:14] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:14] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:14] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:15] [Info] Redis 正在連接...
+[2025-10-18 02:28:15] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:16] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:16] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:17] [Info] Redis 正在連接...
+[2025-10-18 02:28:17] [Info] Redis 正在連接...
+[2025-10-18 02:28:17] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:17] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:17] [Info] Redis 正在連接...
+[2025-10-18 02:28:17] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:17] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:17] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:19] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:19] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:19] [Info] Redis 正在連接...
+[2025-10-18 02:28:19] [Info] Redis 正在連接...
+[2025-10-18 02:28:20] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:20] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:21] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:21] [Info] Redis 正在連接...
+[2025-10-18 02:28:21] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:21] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:21] [Warn] 🔗 活躍 async 資源過多：2014
+[2025-10-18 02:28:22] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:23] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:23] [Info] Redis 正在連接...
+[2025-10-18 02:28:23] [Info] Redis 正在連接...
+[2025-10-18 02:28:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:23] [Info] Redis 正在連接...
+[2025-10-18 02:28:24] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:24] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:24] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:25] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:25] [Info] Redis 正在連接...
+[2025-10-18 02:28:25] [Info] Redis 正在連接...
+[2025-10-18 02:28:26] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:26] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:26] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:26] [Info] Redis 正在連接...
+[2025-10-18 02:28:26] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:26] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:28] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:28] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:28] [Info] Redis 正在連接...
+[2025-10-18 02:28:28] [Info] Redis 正在連接...
+[2025-10-18 02:28:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:28] [Info] Redis 正在連接...
+[2025-10-18 02:28:29] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:30] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:30] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:30] [Info] Redis 正在連接...
+[2025-10-18 02:28:30] [Info] Redis 正在連接...
+[2025-10-18 02:28:31] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:31] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:31] [Info] Redis 正在連接...
+[2025-10-18 02:28:31] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:31] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:32] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:33] [Info] Redis 正在連接...
+[2025-10-18 02:28:33] [Info] Redis 正在連接...
+[2025-10-18 02:28:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:33] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:34] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:34] [Info] Redis 正在連接...
+[2025-10-18 02:28:34] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:35] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:36] [Info] Redis 正在連接...
+[2025-10-18 02:28:36] [Info] Redis 正在連接...
+[2025-10-18 02:28:36] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:36] [Info] Redis 正在連接...
+[2025-10-18 02:28:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:38] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:38] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:38] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:38] [Info] Redis 正在連接...
+[2025-10-18 02:28:38] [Info] Redis 正在連接...
+[2025-10-18 02:28:38] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:38] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:39] [Info] Redis 正在連接...
+[2025-10-18 02:28:39] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:40] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:40] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:41] [Info] Redis 正在連接...
+[2025-10-18 02:28:41] [Info] Redis 正在連接...
+[2025-10-18 02:28:41] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:41] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:42] [Info] Redis 正在連接...
+[2025-10-18 02:28:42] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:42] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:42] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:43] [Info] Redis 正在連接...
+[2025-10-18 02:28:43] [Info] Redis 正在連接...
+[2025-10-18 02:28:43] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:44] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:44] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:44] [Info] Redis 正在連接...
+[2025-10-18 02:28:44] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:44] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:46] [Info] Redis 正在連接...
+[2025-10-18 02:28:46] [Info] Redis 正在連接...
+[2025-10-18 02:28:46] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:46] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:46] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:46] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:47] [Info] Redis 正在連接...
+[2025-10-18 02:28:47] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:49] [Info] Redis 正在連接...
+[2025-10-18 02:28:49] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:49] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:28:49] [Info] Redis 正在連接...
+[2025-10-18 02:28:49] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:49] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:49] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:49] [Info] Redis 正在連接...
+[2025-10-18 02:28:50] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:51] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:51] [Info] Redis 正在連接...
+[2025-10-18 02:28:51] [Info] Redis 正在連接...
+[2025-10-18 02:28:51] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:51] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:51] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:53] [Info] Redis 正在連接...
+[2025-10-18 02:28:53] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:53] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:54] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:54] [Info] Redis 正在連接...
+[2025-10-18 02:28:54] [Info] Redis 正在連接...
+[2025-10-18 02:28:54] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:54] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:56] [Info] Redis 正在連接...
+[2025-10-18 02:28:56] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:56] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:56] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:56] [Info] Redis 正在連接...
+[2025-10-18 02:28:56] [Info] Redis 正在連接...
+[2025-10-18 02:28:56] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:57] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:58] [Info] Redis 正在連接...
+[2025-10-18 02:28:58] [Info] ✅ Redis 已連線
+[2025-10-18 02:28:58] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:59] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:28:59] [Info] Redis 正在連接...
+[2025-10-18 02:28:59] [Info] Redis 正在連接...
+[2025-10-18 02:28:59] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:28:59] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:00] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:29:01] [Info] Redis 正在連接...
+[2025-10-18 02:29:01] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:01] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:01] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:01] [Info] Redis 正在連接...
+[2025-10-18 02:29:02] [Info] Redis 正在連接...
+[2025-10-18 02:29:02] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:02] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:03] [Info] Redis 正在連接...
+[2025-10-18 02:29:03] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:03] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:04] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:04] [Info] Redis 正在連接...
+[2025-10-18 02:29:04] [Info] Redis 正在連接...
+[2025-10-18 02:29:04] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:04] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:06] [Info] Redis 正在連接...
+[2025-10-18 02:29:06] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:06] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:06] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:07] [Info] Redis 正在連接...
+[2025-10-18 02:29:07] [Info] Redis 正在連接...
+[2025-10-18 02:29:07] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:07] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:08] [Info] Redis 正在連接...
+[2025-10-18 02:29:08] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:08] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:08] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:09] [Info] Redis 正在連接...
+[2025-10-18 02:29:09] [Info] Redis 正在連接...
+[2025-10-18 02:29:09] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:09] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:11] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:11] [Info] Redis 正在連接...
+[2025-10-18 02:29:11] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:11] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:11] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:29:12] [Info] Redis 正在連接...
+[2025-10-18 02:29:12] [Info] Redis 正在連接...
+[2025-10-18 02:29:12] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:12] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:13] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:13] [Info] Redis 正在連接...
+[2025-10-18 02:29:13] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:14] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:14] [Info] Redis 正在連接...
+[2025-10-18 02:29:15] [Info] Redis 正在連接...
+[2025-10-18 02:29:15] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:15] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:16] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:16] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:16] [Info] Redis 正在連接...
+[2025-10-18 02:29:16] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:17] [Info] Redis 正在連接...
+[2025-10-18 02:29:17] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:17] [Info] Redis 正在連接...
+[2025-10-18 02:29:17] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:18] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:18] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:18] [Info] Redis 正在連接...
+[2025-10-18 02:29:19] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:19] [Info] Redis 正在連接...
+[2025-10-18 02:29:20] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:20] [Info] Redis 正在連接...
+[2025-10-18 02:29:20] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:21] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:21] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:21] [Info] Redis 正在連接...
+[2025-10-18 02:29:21] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:22] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-18 02:29:22] [Info] Redis 正在連接...
+[2025-10-18 02:29:22] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:22] [Info] Redis 正在連接...
+[2025-10-18 02:29:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:23] [Info] ✅ Redis 已連線
+[2025-10-18 02:29:23] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-18 02:29:24] [Info] Redis 正在連接...
+[2025-10-18 02:29:24] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:29:25] [Info] Redis 正在連接...
+[2025-10-18 02:29:25] [Info] Redis 正在連接...
+[2025-10-18 02:29:25] [Info] 🧹 Node.js 進程結束：0

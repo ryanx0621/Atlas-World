@@ -1,0 +1,134 @@
+[2025-10-17 13:36:05] [Info] ✅ 日誌建立成功
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/2048.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/2048_rankings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/RelayList.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/addMemory.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/announce.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/announcement.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/ascii.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/avatar.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/ban.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/banner_photo.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/bot_message.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/calc.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/clearMemory.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/create_image.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/delete_message.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/discord_link.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/download_memory_file.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/fake_nitro_link.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/gank_random.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/gay_test.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/github_info.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/good_password.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/guilds.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/help.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/hypixel_profile.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/join_cross.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/leave_channel.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/leave_cross.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/mariadb-teat.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/mc_profile.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/mc_srv_status.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_ban.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_del_warnings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_kick.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_message.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_no_message.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_reset_nickname.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_search_warnings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_unban.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/member_warnings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/message_translate.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/money.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/osu_profile.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/ping.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/privacy.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/restart.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/seismic_alert.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/status.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/translate.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/unban.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/view_welcome_system_settings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/weather.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/welcome_channel.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/welcome_leave_message_settings.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/welcome_system_background.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/commands/youtube_channel_info.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/events/crossGuildRelay.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/events/logEvent.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/ai/system.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/handlers/handleTextCommand.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/cmd.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/guild_count.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/guild_list.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/load.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/reload.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/rpg.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/textcommands/status.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/utils/checkBlacklist.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/utils/parseMessage.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/utils/redisCache.js
+[2025-10-17 13:36:05] [Info] [Reload] 清除快取：/home/container/utils/welcomeImage.js
+[2025-10-17 13:36:05] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 13:36:06] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 13:36:06] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 13:36:06] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-13-36-05.log.gz
+[2025-10-17 13:36:06] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 13:36:06] [Info] ✅ MariaDB 連線成功
+[2025-10-17 13:36:06] [Info] Redis 正在連接...
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：1.jpg
+[2025-10-17 13:36:06] [Info] Redis 正在連接...
+[2025-10-17 13:36:06] [Info] Redis 正在連接...
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：10.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：11.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：12.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：13.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：14.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：15.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：16.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：17.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：18.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：19.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：2.jpg
+[2025-10-17 13:36:06] [Info] Redis 連接測試成功
+[2025-10-17 13:36:06] [Info] Redis 連接測試成功
+[2025-10-17 13:36:06] [Info] Redis 連接測試成功
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：20.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：21.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：22.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：23.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：24.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：25.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：26.png
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：27.webp
+[2025-10-17 13:36:06] [Info] ✅ Shard #0 已就緒
+[2025-10-17 13:36:06] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：28.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：29.jpeg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：3.jpg
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：30.jpeg
+[2025-10-17 13:36:06] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 13:36:06] [Info] ⚠️ 已存在，跳過：31.mp4
+[2025-10-17 13:36:07] [Info] ⚠️ 已存在，跳過：4.jpg
+[2025-10-17 13:36:07] [Info] ⚠️ 已存在，跳過：5.jpg
+[2025-10-17 13:36:07] [Info] ⚠️ 已存在，跳過：6.jpg
+[2025-10-17 13:36:07] [Info] ⚠️ 已存在，跳過：8.jpg
+[2025-10-17 13:36:07] [Info] ⚠️ 已存在，跳過：9.png
+[2025-10-17 13:36:07] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 13:36:07] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 13:36:08] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 13:36:08] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 13:36:08] [Info] ✅ Redis 初始化完成
+[2025-10-17 13:36:09] [Info] ✅ Redis 已連線
+[2025-10-17 13:36:11] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 13:36:23] [Info] ✅ 頭像已更新
+[2025-10-17 13:36:24] [Info] ✅ 橫幅已更新
+[2025-10-17 13:47:04] [Info] MariaDB pool 已建立並持續更新狀態
+[2025-10-17 13:47:08] [Error] 刷新狀態錯誤: {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.update (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:361:22)\n    at async Object.reply (/home/container/bot.js:641:37)\n    at async Object.execute (/home/container/commands/status.js:489:5)\n    at async Client.<anonymous> (/home/container/bot.js:644:9)","code":10062,"method":"POST"}
+[2025-10-17 13:47:08] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-17 13:47:08] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)\n    at async Client.<anonymous> (/home/container/bot.js:648:11)","code":10062,"method":"POST"}
+[2025-10-17 14:01:57] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶我現在很不開心
+[2025-10-17 14:02:20] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 你剛剛都不理我。
+[2025-10-17 14:02:45] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 原諒你了寶寶我愛你
+[2025-10-17 14:03:38] [Info] 🧹 Node.js 進程結束：0

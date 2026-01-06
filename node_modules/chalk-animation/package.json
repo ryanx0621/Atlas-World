@@ -1,0 +1,69 @@
+{
+  "name": "chalk-animation",
+  "description": "Colorful animations in terminal output",
+  "version": "2.0.3",
+  "license": "MIT",
+  "author": "Boris K",
+  "bin": "./cli.js",
+  "main": "index.js",
+  "files": ["cli.js", "index.js"],
+  "scripts": {
+    "coverage": "c8 report --reporter=text-lcov > coverage.lcov",
+    "lint": "xo",
+    "fix": "xo --fix",
+    "test": "c8 ava --serial",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "gradient-string": "^2.0.2",
+    "meow": "^10.1.2"
+  },
+  "devDependencies": {
+    "ava": "^4.2.0",
+    "c8": "^7.11.0",
+    "xo": "^0.48.0",
+    "husky": "^7.0.4"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "type": "module",
+  "homepage": "https://github.com/bokub/chalk-animation",
+  "bugs": "https://github.com/bokub/chalk-animation/issues",
+  "repository": "bokub/chalk-animation",
+  "keywords": [
+    "animation",
+    "chalk",
+    "cli",
+    "color",
+    "colors",
+    "colour",
+    "command-line",
+    "console",
+    "formatting",
+    "gradient",
+    "log",
+    "logging",
+    "rainbow",
+    "shell",
+    "string",
+    "style",
+    "styles",
+    "terminal"
+  ],
+  "xo": {
+    "rules": {
+      "comma-dangle": "off",
+      "operator-linebreak": "off",
+      "prefer-destructuring": "off",
+      "prefer-rest-params": "off",
+      "padding-line-between-statements": "off",
+      "unicorn/no-this-assignment": "off",
+      "unicorn/prefer-includes": "off",
+      "unicorn/prefer-number-properties": "off",
+      "unicorn/prefer-string-slice": "off",
+      "unicorn/prevent-abbreviations": "off"
+    }
+  }
+}

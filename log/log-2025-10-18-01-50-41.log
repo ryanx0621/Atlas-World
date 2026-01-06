@@ -1,0 +1,268 @@
+[2025-10-17 21:00:25] [Info] ✅ 日誌建立成功
+[2025-10-17 21:00:27] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 21:00:27] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 21:00:27] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 21:00:27] [Info] Redis 正在連接...
+[2025-10-17 21:00:27] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-21-00-25.log.gz
+[2025-10-17 21:00:27] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 21:00:27] [Info] Redis 正在連接...
+[2025-10-17 21:00:27] [Info] Redis 正在連接...
+[2025-10-17 21:00:28] [Info] ✅ MariaDB 連線成功
+[2025-10-17 21:00:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:28] [Info] Redis 正在連接...
+[2025-10-17 21:00:28] [Info] Redis 正在連接...
+[2025-10-17 21:00:28] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 21:00:28] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 21:00:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:28] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:28] [Info] Redis 正在連接...
+[2025-10-17 21:00:29] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:29] [Info] Redis 正在連接...
+[2025-10-17 21:00:29] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:30] [Info] ✅ Shard #0 已就緒
+[2025-10-17 21:00:30] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 21:00:30] [Info] Redis 正在連接...
+[2025-10-17 21:00:30] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:30] [Info] Redis 正在連接...
+[2025-10-17 21:00:30] [Info] Redis 正在連接...
+[2025-10-17 21:00:30] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:30] [Info] ✅ 載入啟動時間: 13.40s (13399.87ms)
+[2025-10-17 21:00:30] [Info] %s: %s Bot啟動時間 5.073s
+[2025-10-17 21:00:30] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:31] [Info] Redis 正在連接...
+[2025-10-17 21:00:31] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:31] [Info] Redis 正在連接...
+[2025-10-17 21:00:31] [Info] Redis 正在連接...
+[2025-10-17 21:00:32] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:32] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:32] [Info] Redis 正在連接...
+[2025-10-17 21:00:34] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:35] [Info] Redis 正在連接...
+[2025-10-17 21:00:35] [Info] Redis 正在連接...
+[2025-10-17 21:00:35] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:35] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:35] [Info] Redis 正在連接...
+[2025-10-17 21:00:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:36] [Info] Redis 正在連接...
+[2025-10-17 21:00:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:36] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 21:00:37] [Info] Redis 正在連接...
+[2025-10-17 21:00:37] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:38] [Info] Redis 正在連接...
+[2025-10-17 21:00:38] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:38] [Info] Redis 正在連接...
+[2025-10-17 21:00:39] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 21:00:52] [Warn] 🐌 事件迴圈延遲過長：11307ms
+[2025-10-17 21:02:26] [Info] Redis 正在連接...

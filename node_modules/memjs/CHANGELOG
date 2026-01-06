@@ -1,0 +1,128 @@
+# Change Log
+
+# Version 1.2.0
+
+* Add support for retry_delay
+* Fix failover
+
+# Version 1.1.0
+
+* Fix promise support
+
+# Version 1.0.0
+
+* Deprecation for end of function arguments no longer supported. (PR #99)
+* The option argument is no longer mandatory
+
+# Version 0.10.2
+
+* Fixes a backwards compatibility bug in `set` (issue #94)
+
+# Version 0.10.1
+
+* Add support for value in decrement callback (issue #88)
+* Better authentication error handling (PR #91)
+
+# Version 0.10.0
+
+* Fix issue with too many outstanding socket timeouts (issue #52)
+* Add support for touch
+* Add support for append
+* Add support for prepend
+* Fix lint issues across code base
+* Update microtime dependency
+
+# Version 0.9.1
+
+* Fix issue with no completing SASL auth before sending a request (issue #65)
+* Handle timeout for SASL authentication (issue #79)
+* Fix timeout handling for normal operations (issue #80)
+
+# Version 0.9.0
+
+* Deprecate Node version 0.8
+* Add eslint to test suite and fix many linting issues
+
+# Version 0.8.9
+
+* Allow custom `initial` value for increment/decrement
+
+# Version 0.8.8
+
+* Properly preserve extras with non-string bytes
+
+# Version 0.8.7
+
+* Fix global variable leak
+
+# Version 0.8.6
+
+* Add support for stats(key)
+
+# Version 0.8.5
+
+* Add quit command
+* Fixes to stats command
+* Fixes to flush command
+
+# Version 0.8.4
+
+* Don't force conversion of value to string in set, add, replace, etc (issue #44)
+
+# Version 0.8.3
+
+* Bug fix in dataType parse in response header
+
+# Version 0.8.2
+
+* Bug fix in handling error cases when retries > 1
+
+# Version 0.8.1
+
+* Support failover
+* Fix corner case bugs when socket becomes undefined
+
+# Version 0.8.0
+
+* Instead of emitting an error on socket timeout, call `error`.
+
+# Version 0.7.2
+
+* Fixed showstopping typo!
+
+# Version 0.7.1
+
+* Properly pass errors to callback on server error
+
+# Version 0.7.0
+
+* Various bug fixes
+* Increment and decrement commands
+
+# Version 0.6.0
+
+* Asynchronous response handling
+
+# Version 0.5.1
+
+* Fixed retry logic on errors
+
+# Version 0.5.0
+
+* Better support for concurrent accesses
+* Fixed improper ordering of callbacks when there are multiple outstanding requests.
+* Request-specific expire (overrides default) in set/add/replace
+
+# Version 0.4.0
+
+* Support for unicode keys, extras and values.
+* Extensible logging.
+
+# Version 0.3.1
+
+* Fixed saslAuth to include mechanism (thanks to @shokai)
+
+## Version 0.3.0
+
+* Added `err` parameter to all callbacks from client
+* Flush command

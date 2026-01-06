@@ -1,0 +1,37 @@
+[2025-10-17 14:39:03] [Info] ✅ 日誌建立成功
+[2025-10-17 14:39:03] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:39:03] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:39:03] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:39:03] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-14-39-03.log.gz
+[2025-10-17 14:39:03] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 14:39:03] [Error] Unhandled Rejection: {}
+[2025-10-17 14:39:03] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 14:39:03] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 14:39:03] [Error] Unhandled Rejection: {}
+[2025-10-17 14:39:03] [Info] Redis 正在連接...
+[2025-10-17 14:39:03] [Info] Redis 正在連接...
+[2025-10-17 14:39:03] [Info] Redis 正在連接...
+[2025-10-17 14:39:03] [Info] Redis 連接測試成功
+[2025-10-17 14:39:03] [Info] Redis 連接測試成功
+[2025-10-17 14:39:03] [Info] Redis 連接測試成功
+[2025-10-17 14:39:03] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:39:04] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:39:04] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:39:04] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:39:06] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:39:06] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:39:08] [Info] ✅ 載入啟動時間: 7.59s (7591.21ms)
+[2025-10-17 14:39:17] [Info] MariaDB pool 已建立並持續更新狀態
+[2025-10-17 14:39:21] [Error] 刷新狀態錯誤: {"name":"DiscordAPIError[40060]","message":"Interaction has already been acknowledged.","stack":"DiscordAPIError[40060]: Interaction has already been acknowledged.\n    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:762:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:866:23)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1307:22)\n    at async ButtonInteraction.update (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:361:22)\n    at async Object.reply (/home/container/bot.js:650:37)\n    at async Object.execute (/home/container/commands/status.js:498:5)\n    at async Client.<anonymous> (/home/container/bot.js:653:9)","code":40060,"method":"POST"}
+[2025-10-17 14:39:21] [Error] (node:221) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2025-10-17 14:39:21] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-17 14:39:21] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[40060]","message":"Interaction has already been acknowledged.","stack":"DiscordAPIError[40060]: Interaction has already been acknowledged.\n    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:762:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:866:23)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1307:22)\n    at async ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)\n    at async Client.<anonymous> (/home/container/bot.js:657:11)","code":40060,"method":"POST"}
+[2025-10-17 14:39:55] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 14:39:55] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 14:39:55] [Info] ✅ Redis 初始化完成
+[2025-10-17 14:39:56] [Info] ✅ Redis 已連線
+[2025-10-17 14:39:58] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 14:40:11] [Info] ✅ 頭像已更新
+[2025-10-17 14:40:11] [Warn] ⚠️ 設定橫幅太快或權限不足
+[2025-10-17 14:40:29] [Warn] ⚠️ 設定橫幅太快或權限不足

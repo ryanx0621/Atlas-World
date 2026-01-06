@@ -1,0 +1,63 @@
+const { EmbedBuilder, MessageFlags } = require('discord.js');
+const fs = require('fs');
+const path = require('path');
+
+async function checkBlacklist(type, context) {
+  const userId = context.author?.id || context.user?.id;
+
+  console.log(`[Blacklist] 檢查使用者 ID: ${userId} | 來源: ${type}`);
+
+  const blacklistPath = path.join(__dirname, '../memory/blacklist.json');
+  let blacklist = [];
+
+  try {
+    const data = fs.readFileSync(blacklistPath, 'utf8');
+    blacklist = JSON.parse(data);
+    blacklist = blacklist.map(id => id.toString());
+  } catch (err) {
+    console.error('❌ 讀取黑名單錯誤:', err);
+    return false;
+  }
+
+  const isBlacklisted = blacklist.includes(userId?.toString());
+
+  console.log(`[Blacklist] 是否在黑名單中？${isBlacklisted}`);
+
+  if (isBlacklisted) {
+    const embed = new EmbedBuilder()
+      .setTitle('⛔ 禁止使用')
+      .setDescription('你已遭到列入黑名單並禁止使用指令')
+      .setColor(0xFF0000)
+      .setTimestamp();
+
+    try {
+      // 若是 interaction（slash command）
+      if ('isCommand' in context || 'isChatInputCommand' in context) {
+        if (!context.replied && !context.deferred) {
+          await context.reply({
+            embeds: [embed],
+            ephemeral: false
+          });
+        } else {
+          await context.followUp?.({
+            embeds: [embed],
+            ephemeral: false
+          });
+        }
+      } else if (context.reply) {
+        // 傳統文字訊息
+        await context.reply({
+          embeds: [embed]
+        });
+      }
+    } catch (err) {
+      console.error('❌ 回覆黑名單訊息失敗:', err);
+    }
+
+    return true;
+  }
+
+  return false;
+}
+
+module.exports = checkBlacklist;

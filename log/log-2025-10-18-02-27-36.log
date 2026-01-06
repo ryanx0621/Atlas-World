@@ -1,0 +1,281 @@
+[2025-10-18 02:27:29] [Info] ✅ 日誌建立成功
+[2025-10-18 02:27:29] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 02:27:30] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 02:27:30] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 02:27:30] [Error] 導入失敗： SqlError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1591ms
+    at module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at process.processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+[2025-10-18 02:27:31] [Info] Redis 正在連接...
+[2025-10-18 02:27:31] [Info] Redis 正在連接...
+[2025-10-18 02:27:31] [Info] Redis 正在連接...
+[2025-10-18 02:27:29] [Info] ✅ 日誌建立成功
+[2025-10-18 02:27:29] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 02:27:31] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 02:27:31] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 02:27:31] [Error] 導入失敗： SqlError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 2191ms
+    at module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at process.processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Error] Unhandled Rejection: {}
+[2025-10-18 02:27:33] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-18 02:27:33] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-18 02:27:33] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 26.770889035s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
+[2025-10-18 02:27:33] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:33] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 26.570769257s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
+[2025-10-18 02:27:33] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 26.447978576s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
+[2025-10-18 02:27:33] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Info] Redis 正在連接...
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:33] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-18 02:27:33] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 4 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:34] [Info] ✅ 載入啟動時間: 46.60s (46596.71ms)
+[2025-10-18 02:27:34] [Info] %s: %s Bot啟動時間 5.080s
+[2025-10-18 02:27:34] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 25.878206112s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 5 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:34] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 25.677604049s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 6 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:34] [Info] Redis 正在連接...
+[2025-10-18 02:27:34] [Info] Redis 正在連接...
+[2025-10-18 02:27:34] [Info] Redis 正在連接...
+[2025-10-18 02:27:34] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 25.48198119s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 7 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:34] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:34] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 25.372109313s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 8 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:34] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:34] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:34] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 25.274411644s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2025-10-18 02:27:34] [Warn] ⚠️ 第 9 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:27:35] [Info] Redis 正在連接...
+[2025-10-18 02:27:35] [Info] Redis 正在連接...
+[2025-10-18 02:27:35] [Info] Redis 正在連接...
+[2025-10-18 02:27:35] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:35] [Info] 🔁 使用第 10 組 API 金鑰 (AIzaSy...ZgFQ)
+[2025-10-18 02:27:35] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:35] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:36] [Info] Redis 正在連接...
+[2025-10-18 02:27:36] [Info] Redis 正在連接...
+[2025-10-18 02:27:36] [Info] Redis 正在連接...
+[2025-10-18 02:27:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:36] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:27:37] [Info] ✅ Shard #0 已就緒
+[2025-10-18 02:27:37] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-18 02:27:37] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:37:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:196:23)
+    at WebSocketShard.emit (node:events:519:28)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+    at WebSocketShard.gotGuild (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-10-18 02:27:37] [Warn] ❗ 未翻譯錯誤訊息： Channel closed
+[2025-10-18 02:27:37] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Channel closed
+[2025-10-18 02:27:38] [Info] Redis 正在連接...
+[2025-10-18 02:27:38] [Info] Redis 正在連接...

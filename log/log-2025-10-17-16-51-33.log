@@ -1,0 +1,17 @@
+[2025-10-17 16:51:21] [Info] ✅ 日誌建立成功
+[2025-10-17 16:51:21] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 16:51:21] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 16:51:21] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 16:51:21] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-16-51-21.log.gz
+[2025-10-17 16:51:21] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 16:51:21] [Error] 導入失敗： SqlError: (conn:7530866, no: 1040, SQLState: 08004) Too many connections
+    at Object.module.exports.createError (/home/container/node_modules/mariadb/lib/misc/errors.js:67:10)
+    at PacketNodeEncoded.readError (/home/container/node_modules/mariadb/lib/io/packet.js:588:19)
+    at Authentication.handshakeResult (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:187:32)
+    at Authentication.onPacketReceive (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:42:17)
+    at PacketInputStream.receivePacketBasic (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:85:9)
+    at PacketInputStream.onData (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:135:20)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)

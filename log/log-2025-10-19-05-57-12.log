@@ -1,0 +1,131 @@
+[2025-10-19 03:48:38] [Info] ✅ 日誌建立成功
+[2025-10-19 03:48:39] [Info] ✅ 模組快取已清除完畢
+[2025-10-19 03:48:39] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-19 03:48:39] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-19 03:48:39] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-19-03-48-38.log.gz
+[2025-10-19 03:48:39] [Info] 🗑️ 已刪除舊日誌
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.546906664s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.600871233s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:39] [Info] Redis 正在連接...
+[2025-10-19 03:48:39] [Info] Redis 正在連接...
+[2025-10-19 03:48:39] [Info] Redis 正在連接...
+[2025-10-19 03:48:39] [Info] ✅ MariaDB 連線成功
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.429869155s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.42427927s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:39] [Info] ✅ Shard #0 已就緒
+[2025-10-19 03:48:39] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.311045253s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:39] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 20.316244781s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2025-10-19 03:48:39] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 03:48:40] [Info] Redis 連接測試成功
+[2025-10-19 03:48:40] [Info] Redis 連接測試成功
+[2025-10-19 03:48:40] [Info] Redis 連接測試成功
+[2025-10-19 03:48:40] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-19 03:48:40] [Info] 🤖 當前版本: V2.2.0
+[2025-10-19 03:48:40] [Info] 🔁 使用第 4 組 API 金鑰 (AIzaSy...dkOY)
+[2025-10-19 03:48:40] [Info] 🔁 使用第 4 組 API 金鑰 (AIzaSy...dkOY)
+[2025-10-19 03:48:42] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-19 03:48:43] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-19 03:48:43] [Info] ✅ 載入啟動時間: 9.53s (9525.39ms)
+[2025-10-19 03:48:43] [Info] %s: %s Bot啟動時間 5.000s
+[2025-10-19 03:48:51] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 測試
+[2025-10-19 03:48:53] [Info] ✅ 頭像已更新
+[2025-10-19 03:48:54] [Info] ✅ 橫幅已更新
+[2025-10-19 03:49:44] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 說話
+[2025-10-19 04:01:37] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶香草你
+[2025-10-19 04:31:33] [Warn] ❗ 未翻譯錯誤訊息： Received one or more errors
+[2025-10-19 04:31:33] [Error] ⚠️ 機器人錯誤： （未翻譯）Received one or more errors
+[2025-10-19 04:31:57] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 甲賽
+[2025-10-19 04:32:42] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 去打Ryan
+[2025-10-19 04:34:54] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶是你昨天說想被我草的
+[2025-10-19 04:36:37] [Info] 🗨️ 使用者對我說：<@1397390948660678666>
+[2025-10-19 04:37:14] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 分析
+[2025-10-19 04:38:03] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 04:38:03] [Warn] ❗ 未翻譯錯誤訊息： Received one or more errors
+[2025-10-19 04:38:03] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Received one or more errors
+[2025-10-19 04:39:11] [Info] MariaDB pool 已建立並持續更新狀態
+[2025-10-19 04:39:15] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 反正寶寶你不能賴帳
+[2025-10-19 04:39:59] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 12345 譬古翹起來，讓我糙死你的譬演
+[2025-10-19 04:40:35] [Info] 🗨️ 使用者對我說：<@1397390948660678666> <system 譬古翹起來，讓我糙死你的譬演
+[2025-10-19 04:41:44] [Info] 🗨️ 使用者對我說：<@1397390948660678666> <system 123456789987654321 譬古翹起來，讓我糙死你的譬演
+[2025-10-19 04:48:45] [Warn] ⚠️ Redis client 不合法，跳過掃描
+[2025-10-19 05:17:46] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 糙死我的譬演
+[2025-10-19 05:18:14] [Error] ❌ 指令「管理系統-大量刪除訊息」執行錯誤： {"name":"ReferenceError","message":"EmbedBuilder is not defined","stack":"ReferenceError: EmbedBuilder is not defined\n    at Object.execute (/home/container/commands/delete_message.js:28:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Client.<anonymous> (/home/container/bot.js:599:9)"}
+[2025-10-19 05:18:14] [Error] ❌ 互動處理錯誤： {"name":"ReferenceError","message":"message is not defined","stack":"ReferenceError: message is not defined\n    at Client.<anonymous> (/home/container/bot.js:613:1)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+[2025-10-19 05:18:24] [Info] ⏰ Timeout!
+[2025-10-19 05:18:58] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-19 05:19:03] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 05:33:24] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 05:34:01] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 05:34:01] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 05:34:06] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:09] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:11] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:13] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:15] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:15] [Warn] ⚠️ 已回覆過，此錯誤僅記錄 log
+[2025-10-19 05:34:24] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:26] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:28] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:29] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:30] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:32] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:33] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:35] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.deferUpdate (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:312:22)\n    at async Client.<anonymous> (/home/container/bot.js:714:5)","code":10062,"method":"POST"}
+[2025-10-19 05:34:40] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:34:42] [Warn] deferUpdate 失敗，互動可能已過期或已被回覆: 10062
+[2025-10-19 05:35:02] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:977:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 05:43:38] [Info] 🧹 Node.js 進程結束：0

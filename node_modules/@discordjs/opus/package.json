@@ -1,0 +1,56 @@
+{
+	"name": "@discordjs/opus",
+	"version": "0.10.0",
+	"description": "Opus bindings for Node",
+	"main": "lib/index.js",
+	"types": "typings/index.d.ts",
+	"author": "iCrawl <icrawltogo@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"install": "node-pre-gyp install --fallback-to-build",
+		"build": "node-pre-gyp install build package",
+		"lint": "prettier --check . && eslint lib --format=pretty",
+		"lint:fix": "prettier --write . && eslint lib --fix --format=pretty",
+		"test": "node tests/test.js"
+	},
+	"keywords": [
+		"native",
+		"opus",
+		"module",
+		"c",
+		"c++",
+		"bindings",
+		"binary"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/discordjs/opus.git"
+	},
+	"dependencies": {
+		"@discordjs/node-pre-gyp": "^0.4.5",
+		"node-addon-api": "^8.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.2",
+		"eslint": "^8.25.0",
+		"eslint-config-neon": "^0.1.39",
+		"eslint-formatter-pretty": "^4.1.0",
+		"node-gyp": "^9.3.0",
+		"prettier": "^2.7.1",
+		"prism-media": "^1.3.4",
+		"typescript": "^4.8.4"
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"binary": {
+		"module_name": "opus",
+		"module_path": "./prebuild/{node_abi}-napi-v{napi_build_version}-{platform}-{arch}-{libc}-{libc_version}/",
+		"remote_path": "v{version}",
+		"package_name": "{module_name}-v{version}-{node_abi}-napi-v{napi_build_version}-{platform}-{arch}-{libc}-{libc_version}.tar.gz",
+		"host": "https://github.com/discordjs/opus/releases/download/",
+		"napi_versions": [
+			3
+		]
+	}
+}
