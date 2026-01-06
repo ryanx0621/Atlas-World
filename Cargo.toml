@@ -1,0 +1,13 @@
+[package]
+name = "dllm"
+version = "0.1.0"
+edition = "2021"
+description = " DLLM Core Module - Hong Kong Welcome You"
+authors = ["katasyst"]
+
+[[bin]]
+name = "dllm"
+path = "dllm.rs"
+
+[dependencies]
+ctrlc = "3.5.1"
