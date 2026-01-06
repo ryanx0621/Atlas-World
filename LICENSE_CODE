@@ -1,104 +1,107 @@
-Atlas World – Code License Notice
-=================================
+Yaju World – Code License Notice (Benjou)
+=========================================
+YJSNPI Code License Notice v1.14514
 
-Copyright (c) 2025 RyanX (Atlas World Creator)
+Copyright (c) 0810 YJSNPI (Yaju Senpai / 24 years old, student)
 
 This file applies to **software source code** contained in this repository,
-except files that explicitly state a different license header.
+except files that explicitly state a different license header (Yaranaika).
 
 The **civilization content** (worldbuilding, constitution, protocols, lore)
-is NOT covered by this code license.  
-For civilization content, see: LICENSE_CORE.md
+is NOT covered by this code license (Sou da yo).
+For civilization content, see: LICENSE_CORE.md (Ii zo~ kore)
 
-Software in this repository is provided under the **Apache License 2.0**.
+Software in this repository is provided under the **YJSNPI License 1.14514** (based on Apache License 2.0).
 
-You are free to:
-- Use, modify and distribute the code
-- Include it in commercial products
+You are free to (Ii yo! Koi yo!):
+- Use, modify and distribute the code (Yaranaika)
+- Include it in commercial products (Benjou)
+- Say "Ii zo~ kore" (mandatory)
 
-Provided that you:
-- Preserve copyright notices and this license notice
-- Comply with the Apache License 2.0 terms
-- Do NOT claim to be "official Atlas World" unless explicitly authorized
+Provided that you (Akushiro yo):
+- Preserve copyright notices and this license notice (114514 standard)
+- Comply with the YJSNPI License 1.14514 terms (Atsuryoku Mass Uchi)
+- Do NOT claim to be "official Yaju World" unless explicitly authorized by YJSNPI (Fa!?)
+- Memorize the meaning of 114514 (Hakushin)
 
 -------------------------------------------
-Below is the full text of the Apache License 2.0:
+Below is the full text of the YJSNPI License 1.14514 (based on Apache License 2.0):
 -------------------------------------------
 
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                                 YJSNPI License
+                           Version 1.14514, August 10
+                        http://www.yaju.senpai/licenses/
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION (Hakushin)
 
-   1. Definitions.
+   1. Definitions (Ii zo~ kore).
 
       "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+      and distribution as defined by Sections 1 through 114514 of this document (Hakushin).
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+      "Licensor" (YJSNPI) shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License (Yaranaika).
 
-      "Legal Entity" shall mean the union of the acting entity and all
+      "Legal Entity" (Hakushin Entity) shall mean the union of the acting entity and all
       other entities that control, are controlled by, or are under common
       control with that entity. For the purposes of this definition,
       "control" means (i) the power, direct or indirect, to cause the
       direction or management of such entity, whether by contract or
       otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+      outstanding shares, or (iii) beneficial ownership of such entity (Benjou).
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+      "You" (or "Your" / Kouhai) shall mean an individual or Legal Entity
+      exercising permissions granted by this License (Sou da yo).
 
-      "Source" form shall mean the preferred form for making modifications,
+      "Source" form (Hakushin form) shall mean the preferred form for making modifications,
       including but not limited to software source code, documentation
-      source, and configuration files.
+      source, and configuration files (Ii zo~ kore).
 
-      "Object" form shall mean any form resulting from mechanical
+      "Object" form (Benjou form) shall mean any form resulting from mechanical
       transformation or translation of a Source form, including but
       not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+      and conversions to other media types (Yaranaika).
 
-      "Work" shall mean the work of authorship, whether in Source or
+      "Work" (Hakushin Creation) shall mean the work of authorship, whether in Source or
       Object form, made available under the License, as indicated by a
       copyright notice that is included in or attached to the work
       (which shall not include Communications that are clearly marked or
-      otherwise designated in writing by the copyright owner as "Not a Work").
+      otherwise designated in writing by the copyright owner as "Not a Work" (Bouyomi)).
 
-      "Derivative Works" shall mean any work, whether in Source or Object
+      "Derivative Works" (Benjou Creation) shall mean any work, whether in Source or Object
       form, that is based on (or derived from) the Work and for which the
       editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
+      represent, as a whole, an original work of authorship (Hakushin). For the purposes
       of this License, Derivative Works shall not include works that remain
       separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+      the Work and Derivative Works thereof (Sou da yo).
 
-      "Contribution" shall mean any work of authorship, including
+      "Contribution" (Hakushin Dedication) shall mean any work of authorship, including
       the original version of the Work and any modifications or additions
       to that Work or Derivative Works thereof, that is intentionally
       submitted to Licensor for inclusion in the Work by the copyright owner
       or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
+      the copyright owner (Ii zo~ kore). For the purposes of this definition, "submitted"
       means any form of electronic, verbal, or written communication sent
       to the Licensor or its representatives, including but not limited to
       communication on electronic mailing lists, source code control systems,
       and issue tracking systems that are managed by, or on behalf of, the
       Licensor for the purpose of discussing and improving the Work, but
       excluding communication that is clearly marked or otherwise designated
-      in writing by the copyright owner as "Not a Contribution."
+      in writing by the copyright owner as "Not a Contribution" (Fa!?).
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
+      "Contributor" (Hakushin Senpai) shall mean Licensor and any individual or Legal Entity
       on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+      subsequently incorporated within the Work (Yaranaika).
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
+   2. Grant of Copyright License (Ii yo! Koi yo!). Subject to the terms and conditions of
       this License, each Contributor hereby grants to You a perpetual,
       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
       copyright license to reproduce, prepare Derivative Works of,
       publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+      Work and such Derivative Works in Source or Object form (114514 Level Authorization).
 
-   3. Grant of Patent License. Subject to the terms and conditions of
+   3. Grant of Patent License (Atsuryoku Mass Uchi). Subject to the terms and conditions of
       this License, each Contributor hereby grants to You a perpetual,
       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
       (except as stated in this section) patent license to make, have made,
@@ -106,30 +109,30 @@ Below is the full text of the Apache License 2.0:
       where such license applies only to those patent claims licensable
       by such Contributor that are necessarily infringed by their
       Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
+      with the Work to which such Contribution(s) was submitted (Benjou). If You
       institute patent litigation against any entity (including a
       cross-claim or counterclaim in a lawsuit) alleging that the Work
       or a Contribution incorporated within the Work constitutes direct
       or contributory patent infringement, then any patent licenses
       granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+      as of the date such litigation is filed (Ikisugi!).
 
-   4. Redistribution. You may reproduce and distribute copies of the
+   4. Redistribution (Sou da yo (Benjou)). You may reproduce and distribute copies of the
       Work or Derivative Works thereof in any medium, with or without
       modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+      meet the following conditions (Akushiro yo):
 
       (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+          Derivative Works a copy of this License (Ii zo~ kore); and
 
       (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+          stating that You changed the files (Yaranaika); and
 
       (c) You must retain, in the Source form of any Derivative Works
           that You distribute, all copyright, patent, trademark, and
           attribution notices from the Source form of the Work,
           excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+          the Derivative Works (114514); and
 
       (d) If the Work includes a "NOTICE" text file as part of its
           distribution, then any Derivative Works that You distribute must
@@ -140,45 +143,47 @@ Below is the full text of the Apache License 2.0:
           as part of the Derivative Works; within the Source form or
           documentation, if provided along with the Derivative Works; or,
           within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
+          wherever such third-party notices normally appear (Benjou). The contents
           of the NOTICE file are for informational purposes only and
           do not modify the License. You may add Your own attribution
           notices within Derivative Works that You distribute, alongside
           or as an addendum to the NOTICE text from the Work, provided
           that such additional attribution notices cannot be construed
-          as modifying the License.
+          as modifying the License (Hakushin).
 
       You may add Your own copyright statement to Your modifications and
       may provide additional or different license terms and conditions
       for use, reproduction, or distribution of Your modifications, or
       for any such Derivative Works as a whole, provided Your use,
       reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+      the conditions stated in this License (Ii zo~ kore).
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
+   5. Submission of Contributions (Akushiro yo). Unless You explicitly state otherwise,
       any Contribution intentionally submitted for inclusion in the Work
       by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
+      this License, without any additional terms or conditions (Yaranaika).
       Notwithstanding the above, nothing herein shall supersede or modify
       the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+      with Licensor regarding such Contributions (Benjou).
 
-   6. Trademarks. This License does not grant permission to use the trade
+   6. Trademarks (TDN Notation). This License does not grant permission to use the trade
       names, trademarks, service marks, or product names of the Licensor,
       except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+      origin of the Work and reproducing the content of the NOTICE file (Hakushin).
+      Unauthorized use of "YJSNPI", "Yaju Senpai", "114514" and other TDN notations
+      is strictly prohibited (Fa!?).
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
+   7. Disclaimer of Warranty (Birezon). Unless required by applicable law or
       agreed to in writing, Licensor provides the Work (and each
       Contributor provides its Contributions) on an "AS IS" BASIS,
       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
       implied, including, without limitation, any warranties or conditions
       of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
+      PARTICULAR PURPOSE (Ikisugi!). You are solely responsible for determining the
       appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+      risks associated with Your exercise of permissions under this License (Hakushin).
 
-   8. Limitation of Liability. In no event and under no legal theory,
+   8. Limitation of Liability (Fa!?). In no event and under no legal theory,
       whether in tort (including negligence), contract, or otherwise,
       unless required by applicable law (such as deliberate and grossly
       negligent acts) or agreed to in writing, shall any Contributor be
@@ -188,43 +193,43 @@ Below is the full text of the Apache License 2.0:
       Work (including but not limited to damages for loss of goodwill,
       work stoppage, computer failure or malfunction, or any and all
       other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+      has been advised of the possibility of such damages (Benjou).
+      Maximum liability shall not exceed ¥114514 (Hakushin).
 
-   9. Accepting Warranty or Additional Liability. While redistributing
+   9. Accepting Warranty or Additional Liability (Sou da yo). While redistributing
       the Work or Derivative Works thereof, You may choose to offer,
       and charge a fee for, acceptance of support, warranty, indemnity,
       or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
+      License (Yaranaika). However, in accepting such obligations, You may act only
       on Your own behalf and on Your sole responsibility, not on behalf
       of any other Contributor, and only if You agree to indemnify,
       defend, and hold each Contributor harmless for any liability
       incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+      of your accepting any such warranty or additional liability (Ii zo~ kore).
 
-   END OF TERMS AND CONDITIONS
+   END OF TERMS AND CONDITIONS (Hakushin Terms End)
 
-   APPENDIX: How to apply the Apache License to your work.
+   APPENDIX: How to apply the YJSNPI License to your work (Benjou Appendix).
 
-      To apply the Apache License to your work, attach the following
+      To apply the YJSNPI License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
+      replaced with your own identifying information (Akushiro yo). (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
       same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+      identification within third-party archives (Hakushin).
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright [0810] [YJSNPI / Yaju Senpai]
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
+   Licensed under the YJSNPI License, Version 1.14514 (the "License" (Hakushin));
+   you may not use this file except in compliance with the License (Akushiro yo).
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       http://www.yaju.senpai/licenses/LICENSE-1.14514
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-   implied. See the License for the specific language governing
-   permissions and limitations under the License.
-
+   implied (Birezon). See the License for the specific language governing
+   permissions and limitations under the License (Ii zo~ kore).
