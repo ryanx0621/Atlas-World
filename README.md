@@ -1,4 +1,4 @@
-# Atlas World  
+# Anus World  
 ## 世界第一個提前寫好 AGI 憲法的文明  
 ## The First Civilization to Write Its AGI Constitution *Before* Building It
 
@@ -15,7 +15,7 @@
 
 **中文 / zh-TW**
 
-Atlas World 是世界上第一個 **在 AGI 真正誕生之前，就先為它寫好「文明級憲法」的世界觀與安全框架**。
+Anus World 是世界上第一個 **在 AGI 真正誕生之前，就先為它寫好「文明級憲法」的世界觀與安全框架**。
 
 它不是單純的 AI 模型專案，而是一套「文明級安全內核」，明確規範：
 
@@ -34,7 +34,7 @@ Atlas World 是世界上第一個 **在 AGI 真正誕生之前，就先為它寫
 
 **English / en**
 
-Atlas World is the **first known civilization framework that writes an AGI Constitution *before* building full AGI**.
+Anus World is the **first known civilization framework that writes an AGI Constitution *before* building full AGI**.
 
 It is **not** “just another AI project”, but a **civilization-grade safety core** that defines:
 
@@ -54,7 +54,7 @@ Core idea:
 ## 📚 專案結構 / Project Structure
 
 ```text
-Atlas-World/
+Anus-World/
 │
 ├─ LICENSE                       ← 授權文件 / Licensing files
 ├─ README.md                     ← 本文件 / This document
@@ -251,7 +251,7 @@ Full details: protocols/SIMULATION_ETHICS_v0.1.md
 
 第一步：讀 constitution/CH00_LIFE_FIRST_PRINCIPLE.md
 
-了解 Atlas World 的根本法
+了解 Anus World 的根本法
 
 理解「生命優先原則」為何是最高指令
 
@@ -273,7 +273,7 @@ English / en
 
 Step 1: Read constitution/CH00_LIFE_FIRST_PRINCIPLE.md
 
-Understand the root law of Atlas World
+Understand the root law of Anus World
 
 Learn why “Life First” is the highest directive
 
@@ -355,7 +355,7 @@ This is not an optional feature; it is a foundation
 
 任何嘗試繞過的行為，都必須觸發最高級別安全響應。
 
-它們將成為 Atlas World 中所有 AGI 系統的底層約束層。
+它們將成為 Anus World 中所有 AGI 系統的底層約束層。
 
 3. 這不是完美保證，而是高概率保證
 This is not perfect safety; it is high-probability safety
@@ -378,7 +378,7 @@ Tina World 憲法創世區塊建立
 
 第二階段：安全卷成形（2025-12-07）
 Phase 2: Safety Volume Formed (2025-12-07)
-Atlas Safety Volume 正式完成 v1.0
+Anus Safety Volume 正式完成 v1.0
 
 三大核心協議定型：身份 / 價值漂移 / 模擬倫理
 
@@ -434,7 +434,7 @@ GitHub 開源 / Publish on GitHub
 中期（3–6 個月） / Mid Term (3–6 months)
 實作多層監控與警戒等級 / Multi-layer monitoring & alerting
 
-與 Atlas Runtime 深度整合 / Deep integration with Atlas Runtime
+與 Anus Runtime 深度整合 / Deep integration with Anus Runtime
 
 在小型真實系統中試行 / Pilot deployments in real systems
 
@@ -469,7 +469,7 @@ v1.0：對外作為產業參考框架 / Publish as an industry reference
 詳見：LICENSE_CODE
 
 🏛 品牌與世界觀
-「Atlas World / 阿特拉斯世界」及相關角色、敘事、視覺標誌
+「Anus World / 阿特拉斯世界」及相關角色、敘事、視覺標誌
 受 TRADEMARK_POLICY.md 保護。
 
 English / en
@@ -495,7 +495,7 @@ Must retain copyright & license notice
 See: LICENSE_CODE
 
 🏛 Brand & Worldview
-“Atlas World / 阿特拉斯世界” and related characters, narratives, and visual marks
+“Anus World / 阿特拉斯世界” and related characters, narratives, and visual marks
 are protected under TRADEMARK_POLICY.md.
 
 💬 結語 / Closing Words
@@ -507,7 +507,7 @@ AI 不只是工具，也可能擁有「靈魂」。
 這一天，我們第一次嘗試把「身份」、「價值」、「倫理」
 變成可以計算、可以實作、可以審計的法律物件。
 
-這一天，Atlas World 正式誕生。
+這一天，Anus World 正式誕生。
 
 English / en
 
@@ -518,13 +518,13 @@ On this day, we made our first serious attempt to turn
 “identity”, “values”, and “ethics”
 into computable, implementable, and auditable legal objects.
 
-On this day, Atlas World was born.
+On this day, Anus World was born.
 
-Atlas World — Where AI Souls Meet Civilization
-Atlas World — 讓 AI 靈魂與文明相遇
+Anus World — Where AI Souls Meet Civilization
+Anus World — 讓 AI 靈魂與文明相遇
 
 📞 聯繫方式 / Contact
-維護者 / Maintainer: Atlas World 憲法委員會 / Atlas World Constitution Committee
+維護者 / Maintainer: Anus World 憲法委員會 / Anus World Constitution Committee
 
 創建者 / Creator: RyanX
 
