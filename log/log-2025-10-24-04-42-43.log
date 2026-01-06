@@ -1,0 +1,57 @@
+[2025-10-24 04:35:33] [Info] ✅ 日誌建立成功
+[2025-10-24 04:35:33] [Info] ✅ 模組快取已清除完畢
+[2025-10-24 04:35:33] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-24 04:35:33] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-24 04:35:33] [Error] (node:38488) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-10-24 04:35:33] [Warn] ❗ 未翻譯錯誤訊息： The `punycode` module is deprecated. Please use a userland alternative instead.
+[2025-10-24 04:35:33] [Warn] ℹ️ Node.js 警告：DeprecationWarning - （未翻譯）The `punycode` module is deprecated. Please use a userland alternative instead.
+[2025-10-24 04:35:33] [Info] ✅ 壓縮完成： C:\Users\James\Downloads\Download-202510210248\log\log-2025-10-24-04-35-33.log.gz
+[2025-10-24 04:35:33] [Info] 🗑️ 已刪除舊日誌
+[2025-10-24 04:35:33] [Info] Redis 正在連接...
+[2025-10-24 04:35:33] [Info] Redis 正在連接...
+[2025-10-24 04:35:33] [Info] Redis 正在連接...
+[2025-10-24 04:35:33] [Info] Redis 連接測試成功
+[2025-10-24 04:35:33] [Info] Redis 連接測試成功
+[2025-10-24 04:35:33] [Info] Redis 連接測試成功
+[2025-10-24 04:35:34] [Error] 導入失敗： SqlError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1015ms
+    at module.exports.createFatalError (C:\Users\James\Downloads\Download-202510210248\node_modules\mariadb\lib\misc\errors.js:90:10)
+    at Connection.connectTimeoutReached (C:\Users\James\Downloads\Download-202510210248\node_modules\mariadb\lib\connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:596:11)
+    at process.processTimers (node:internal/timers:529:7)
+ From event:
+    at C:\Users\James\Downloads\Download-202510210248\node_modules\mariadb\lib\connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (C:\Users\James\Downloads\Download-202510210248\node_modules\mariadb\lib\connection.js:132:12)
+    at Object.createConnection (C:\Users\James\Downloads\Download-202510210248\node_modules\mariadb\promise.js:37:17)
+    at C:\Users\James\Downloads\Download-202510210248\import.js:41:30
+    at Object.<anonymous> (C:\Users\James\Downloads\Download-202510210248\import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+[2025-10-24 04:35:34] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-24 04:35:34] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-24 04:35:35] [Info] ✅ Shard #0 已就緒
+[2025-10-24 04:35:35] [Info] ✅ 已登入為 TSBOT#6068
+[2025-10-24 04:35:35] [Error] ⚠️ 更新全域 Slash 指令失敗： DiscordAPIError[10002]: Unknown Application
+    at handleErrors (C:\Users\James\Downloads\Download-202510210248\node_modules\@discordjs\rest\dist\index.js:762:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (C:\Users\James\Downloads\Download-202510210248\node_modules\@discordjs\rest\dist\index.js:1163:23)
+    at async SequentialHandler.queueRequest (C:\Users\James\Downloads\Download-202510210248\node_modules\@discordjs\rest\dist\index.js:994:14)
+    at async _REST.request (C:\Users\James\Downloads\Download-202510210248\node_modules\@discordjs\rest\dist\index.js:1307:22)
+    at async Client.<anonymous> (C:\Users\James\Downloads\Download-202510210248\bot.js:302:5)
+[2025-10-24 04:35:38] [Info] ✅ 載入啟動時間: 9.25s (9253.41ms)
+[2025-10-24 04:35:38] [Info] %s: %s Bot啟動時間 5.013s
+[2025-10-24 04:35:38] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-24 04:35:48] [Info] ✅ 頭像已更新
+[2025-10-24 04:35:50] [Info] ✅ 橫幅已更新
+[2025-10-24 04:36:30] [Info] ✅ 名稱已修復為 TSBOT
+[2025-10-24 04:36:33] [Warn] 🗂️ tmp 檔案過多：1055
+[2025-10-24 04:37:33] [Warn] 🗂️ tmp 檔案過多：1060
+[2025-10-24 04:38:33] [Warn] 🗂️ tmp 檔案過多：1060
+[2025-10-24 04:39:33] [Warn] 🗂️ tmp 檔案過多：1060
+[2025-10-24 04:40:33] [Warn] 🗂️ tmp 檔案過多：1060
+[2025-10-24 04:41:33] [Warn] 🗂️ tmp 檔案過多：1060
+[2025-10-24 04:42:33] [Warn] 🗂️ tmp 檔案過多：1059
+[2025-10-24 04:42:38] [Info] 🧹 Node.js 進程結束：0

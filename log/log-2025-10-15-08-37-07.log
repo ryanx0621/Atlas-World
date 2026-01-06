@@ -1,0 +1,259 @@
+[2025-10-14 13:54:08] [Info] ✅ 日誌建立成功
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/2048.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/2048_rankings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/addMemory.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/announcement.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/ascii.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/avatar.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/ban.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/banner_photo.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/bot_message.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/calc.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/clearMemory.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/create_image.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/create_webhook_channel.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/delete_message.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/delete_webhook_channel.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/discord_link.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/download_memory_file.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/fake_nitro_link.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/gank_random.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/gay_test.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/github_info.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/good_password.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/guilds.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/help.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/hypixel_profile.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/join_corss.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/leave_channel.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/leave_cross.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/mariadb-teat.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/mc_profile.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/mc_srv_status.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_ban.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_del_warnings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_kick.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_message.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_no_message.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_reset_nickname.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_search_warnings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_unban.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/member_warnings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/message_translate.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/money.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/osu_profile.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/ping.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/privacy.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/restart.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/seismic_alert.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/status.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/translate.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/unban.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/view_welcome_system_settings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/weather.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/welcome_channel.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/welcome_leave_message_settings.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/welcome_system_background.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/commands/youtube_channel_info.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/events/crossGuildRelay.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/events/logEvent.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/events/messageCreate.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/ai/system.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/handlers/handleTextCommand.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/cmd.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/guild_count.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/guild_list.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/load.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/reload.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/rpg.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/textcommands/status.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/utils/checkBlacklist.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/utils/parseMessage.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/utils/redisCache.js
+[2025-10-14 13:54:08] [Info] [Reload] 清除快取：/home/container/utils/welcomeImage.js
+[2025-10-14 13:54:08] [Info] ✅ 模組快取已清除完畢
+[2025-10-14 13:54:08] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-14 13:54:08] [Info] ✅ 所有初始化作業完成，正在登入機器人...
+[2025-10-14 13:54:08] [Info] ✅ MariaDB 連線成功
+[2025-10-14 13:54:08] [Info] Redis 正在連接...
+[2025-10-14 13:54:08] [Info] ⚠️ 已存在，跳過：1.jpg
+[2025-10-14 13:54:08] [Info] Redis 正在連接...
+[2025-10-14 13:54:08] [Info] Redis 正在連接...
+[2025-10-14 13:54:08] [Info] ⚠️ 已存在，跳過：10.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：11.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：12.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：13.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：14.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：15.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：16.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：17.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：18.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：19.jpg
+[2025-10-14 13:54:09] [Info] Redis 連接測試成功
+[2025-10-14 13:54:09] [Info] Redis 連接測試成功
+[2025-10-14 13:54:09] [Info] Redis 連接測試成功
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：2.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：20.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：21.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：22.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：23.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：24.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：25.jpeg
+[2025-10-14 13:54:09] [Info] ✅ Shard #0 已就緒
+[2025-10-14 13:54:09] [Info] ✅ Logged in as TSBOT#7103
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：26.png
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：27.webp
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：28.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：29.jpeg
+[2025-10-14 13:54:09] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：3.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：30.jpeg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：31.mp4
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：4.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：5.jpg
+[2025-10-14 13:54:09] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：6.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：8.jpg
+[2025-10-14 13:54:09] [Info] ⚠️ 已存在，跳過：9.png
+[2025-10-14 13:54:09] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-14 13:54:09] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-14 13:54:09] [Info] 🤖 當前版本: V2.0.3
+[2025-10-14 13:54:09] [Info] ✅ Redis 初始化完成
+[2025-10-14 13:54:09] [Info] ✅ Redis 已連線
+[2025-10-14 13:54:12] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-14 13:54:18] [Info] 🗨️ 使用者對我說：<@1397390948660678666> test
+[2025-10-14 13:54:18] [Error] [ERROR] logBotTalk 執行錯誤: {}
+[2025-10-14 13:54:24] [Info] ✅ 頭像已更新
+[2025-10-14 13:54:25] [Info] ✅ 橫幅已更新
+[2025-10-14 13:55:24] [Info] 🆕 新伺服器：國高中交流區 (1388126728454537308)
+[2025-10-14 13:55:25] [Info] 已在 國高中交流區 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:55:53] [Info] 🆕 新伺服器：左右丞聯盟 (1422475448423551069)
+[2025-10-14 13:55:53] [Info] 已在 左右丞聯盟 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:56:03] [Info] 🆕 新伺服器：台中一中學生未入黨 (1407317830566674524)
+[2025-10-14 13:56:04] [Info] 已在 台中一中學生未入黨 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:56:08] [Info] 🆕 新伺服器：男娘淫夢共榮圈 (1406720559475064872)
+[2025-10-14 13:56:09] [Info] 已在 男娘淫夢共榮圈 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:56:14] [Info] 🆕 新伺服器：一中裙眾聯萌［僅限高一］ (1424282124630102029)
+[2025-10-14 13:56:15] [Info] 已在 一中裙眾聯萌［僅限高一］ 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:56:25] [Info] 🆕 新伺服器：［滲透行動指揮中心］ (1415664980732280834)
+[2025-10-14 13:56:25] [Info] 已在 ［滲透行動指揮中心］ 創建歡迎使用頻道並發送訊息
+[2025-10-14 13:58:34] [Info] 🆕 新伺服器：DCTW (機器人群組) (1412776267916382290)
+[2025-10-14 13:58:34] [Error] ❌ 在 DCTW (機器人群組) 建立頻道失敗
+[2025-10-14 14:00:25] [Info] ✅ 已自動刪除 國高中交流區 的頻道
+[2025-10-14 14:00:54] [Info] ✅ 已自動刪除 左右丞聯盟 的頻道
+[2025-10-14 14:01:04] [Info] ✅ 已自動刪除 台中一中學生未入黨 的頻道
+[2025-10-14 14:01:09] [Info] ✅ 已自動刪除 男娘淫夢共榮圈 的頻道
+[2025-10-14 14:01:15] [Info] ✅ 已自動刪除 一中裙眾聯萌［僅限高一］ 的頻道
+[2025-10-14 14:01:25] [Info] ✅ 已自動刪除 ［滲透行動指揮中心］ 的頻道
+[2025-10-14 15:31:40] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-14 15:31:41] [Info] ▶️ Shard #0 已恢復，重播事件數：4
+[2025-10-14 18:10:07] [Error] ❌ 指令「歡迎系統-設定歡迎離開訊息」執行錯誤： {"name":"TypeError","message":"Cannot read properties of null (reading 'id')","stack":"TypeError: Cannot read properties of null (reading 'id')\n    at Object.execute (/home/container/commands/welcome_leave_message_settings.js:41:35)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Client.<anonymous> (/home/container/bot.js:482:9)"}
+[2025-10-14 18:10:07] [Error] ❌ 互動處理錯誤： {"name":"TypeError","message":"(intermediate value).setTitle(...).setDescription(...).setColor(...).setTimetamp is not a function","stack":"TypeError: (intermediate value).setTitle(...).setDescription(...).setColor(...).setTimetamp is not a function\n    at Client.<anonymous> (/home/container/bot.js:495:4)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+[2025-10-14 18:10:10] [Info] ⏰ Timeout!
+[2025-10-14 18:11:03] [Error] ❌ 指令「歡迎系統-設定歡迎離開訊息」執行錯誤： {"name":"TypeError","message":"Cannot read properties of null (reading 'id')","stack":"TypeError: Cannot read properties of null (reading 'id')\n    at Object.execute (/home/container/commands/welcome_leave_message_settings.js:41:35)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Client.<anonymous> (/home/container/bot.js:482:9)"}
+[2025-10-14 18:11:03] [Error] ❌ 互動處理錯誤： {"name":"TypeError","message":"(intermediate value).setTitle(...).setDescription(...).setColor(...).setTimetamp is not a function","stack":"TypeError: (intermediate value).setTitle(...).setDescription(...).setColor(...).setTimetamp is not a function\n    at Client.<anonymous> (/home/container/bot.js:495:4)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+[2025-10-14 18:11:06] [Info] ⏰ Timeout!
+[2025-10-14 18:19:25] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-14 18:19:26] [Info] ▶️ Shard #0 已恢復，重播事件數：4
+[2025-10-14 19:19:53] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-14 19:19:53] [Info] ▶️ Shard #0 已恢復，重播事件數：1
+[2025-10-14 22:47:23] [Info] 🆕 新伺服器：永續伺服器 (1350126615010611281)
+[2025-10-14 22:47:23] [Info] 已在 永續伺服器 創建歡迎使用頻道並發送訊息
+[2025-10-14 22:49:09] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-14 22:49:09] [Info] ▶️ Shard #0 已恢復，重播事件數：8
+[2025-10-14 22:52:24] [Info] ✅ 已自動刪除 永續伺服器 的頻道
+[2025-10-15 00:15:06] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 00:15:06] [Info] ▶️ Shard #0 已恢復，重播事件數：8
+[2025-10-15 00:58:31] [Info] 🆕 新伺服器：ʚ夢遊ɞ (1288066179386052659)
+[2025-10-15 00:58:31] [Info] 已在 ʚ夢遊ɞ 創建歡迎使用頻道並發送訊息
+[2025-10-15 01:03:32] [Info] ✅ 已自動刪除 ʚ夢遊ɞ 的頻道
+[2025-10-15 01:04:18] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-15 02:30:04] [Error] 處理 guildMemberRemove 時出錯: {}
+[2025-10-15 02:30:04] [Warn] ❌ 機器人被移出伺服器：ʚ夢遊ɞ (1288066179386052659)
+[2025-10-15 03:11:12] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 03:11:13] [Info] ▶️ Shard #0 已恢復，重播事件數：1
+[2025-10-15 04:27:12] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 04:27:12] [Info] ▶️ Shard #0 已恢復，重播事件數：4
+[2025-10-15 05:19:33] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 05:19:33] [Info] ▶️ Shard #0 已恢復，重播事件數：2
+[2025-10-15 05:42:06] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 05:42:07] [Info] ▶️ Shard #0 已恢復，重播事件數：10
+[2025-10-15 07:36:47] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-15 07:36:48] [Info] ▶️ Shard #0 已恢復，重播事件數：10
+[2025-10-15 08:37:04] [Info] 🧹 Node.js 進程結束：0
+[2025-10-15 08:37:07] [Info] ✅ 日誌建立成功
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/2048.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/2048_rankings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/addMemory.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/announcement.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/ascii.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/avatar.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/ban.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/banner_photo.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/bot_message.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/calc.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/clearMemory.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/create_image.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/create_webhook_channel.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/delete_message.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/delete_webhook_channel.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/discord_link.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/download_memory_file.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/fake_nitro_link.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/gank_random.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/gay_test.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/github_info.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/good_password.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/guilds.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/help.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/hypixel_profile.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/join_corss.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/leave_channel.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/leave_cross.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/mariadb-teat.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/mc_profile.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/mc_srv_status.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_ban.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_del_warnings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_kick.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_message.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_no_message.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_reset_nickname.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_search_warnings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_unban.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/member_warnings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/message_translate.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/money.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/osu_profile.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/ping.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/privacy.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/restart.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/seismic_alert.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/status.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/translate.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/unban.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/view_welcome_system_settings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/weather.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/welcome_channel.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/welcome_leave_message_settings.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/welcome_system_background.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/commands/youtube_channel_info.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/events/crossGuildRelay.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/events/logEvent.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/events/messageCreate.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/ai/system.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/handlers/handleTextCommand.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/cmd.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/guild_count.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/guild_list.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/load.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/reload.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/rpg.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/textcommands/status.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/utils/checkBlacklist.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/utils/parseMessage.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/utils/redisCache.js
+[2025-10-15 08:37:07] [Info] [Reload] 清除快取：/home/container/utils/welcomeImage.js
+[2025-10-15 08:37:07] [Info] ✅ 模組快取已清除完畢
+[2025-10-15 08:37:07] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-15 08:37:07] [Info] ✅ 所有初始化作業完成，正在登入機器人...

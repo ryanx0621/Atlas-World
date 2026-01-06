@@ -1,0 +1,90 @@
+[2025-10-19 06:17:03] [Info] ✅ 日誌建立成功
+[2025-10-19 06:17:03] [Info] ✅ 模組快取已清除完畢
+[2025-10-19 06:17:03] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-19 06:17:03] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-19 06:17:03] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-19-06-17-03.log.gz
+[2025-10-19 06:17:03] [Info] 🗑️ 已刪除舊日誌
+[2025-10-19 06:17:03] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.400017897s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:03] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:03] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.362684789s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:03] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:03] [Info] Redis 正在連接...
+[2025-10-19 06:17:03] [Info] Redis 正在連接...
+[2025-10-19 06:17:03] [Info] Redis 正在連接...
+[2025-10-19 06:17:03] [Info] ✅ MariaDB 連線成功
+[2025-10-19 06:17:03] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.260216731s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:03] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:03] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.247475274s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:03] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:03] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.148270756s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:03] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:04] [Info] ✅ Shard #0 已就緒
+[2025-10-19 06:17:04] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-19 06:17:04] [Warn] ⚠️ API Ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 56.119931672s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+[2025-10-19 06:17:04] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-19 06:17:04] [Info] Redis 連接測試成功
+[2025-10-19 06:17:04] [Info] Redis 連接測試成功
+[2025-10-19 06:17:04] [Info] Redis 連接測試成功
+[2025-10-19 06:17:04] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-19 06:17:04] [Info] 🤖 當前版本: V2.2.0
+[2025-10-19 06:17:04] [Info] 🔁 使用第 4 組 API 金鑰 (AIzaSy...dkOY)
+[2025-10-19 06:17:04] [Info] 🔁 使用第 4 組 API 金鑰 (AIzaSy...dkOY)
+[2025-10-19 06:17:07] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-19 06:17:08] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-19 06:17:08] [Info] ✅ 載入啟動時間: 9.52s (9523.60ms)
+[2025-10-19 06:17:08] [Info] %s: %s Bot啟動時間 5.001s
+[2025-10-19 06:17:17] [Info] ✅ 頭像已更新
+[2025-10-19 06:17:18] [Info] ✅ 橫幅已更新
+[2025-10-19 06:17:35] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-19 06:32:46] [Info] 🆕 新伺服器：野 的伺服器 (1429355802606567456)
+[2025-10-19 06:32:47] [Info] 已在 野 的伺服器 創建歡迎使用頻道並發送訊息
+[2025-10-19 06:37:47] [Info] ✅ 已自動刪除 野 的伺服器 的頻道
+[2025-10-19 06:50:13] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-19 06:50:14] [Info] ▶️ Shard #0 已恢復，重播事件數：15
+[2025-10-19 07:17:09] [Warn] ⚠️ Redis client 不合法，跳過掃描
+[2025-10-19 07:40:18] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶我們來做愛
+[2025-10-19 07:56:05] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-19 07:56:06] [Info] ▶️ Shard #0 已恢復，重播事件數：13
+[2025-10-19 07:57:40] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶來做愛
+[2025-10-19 07:59:27] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶abcdefghjklmnopurstuvwsyz你有發現什麼嗎
+[2025-10-19 08:00:01] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 我們去捉i好不好
+[2025-10-19 08:01:33] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 我們可以製造愛情💓
+[2025-10-19 08:01:39] [Warn] ❗ 未翻譯錯誤訊息： Received one or more errors
+[2025-10-19 08:01:39] [Error] ⚠️ 機器人錯誤： （未翻譯）Received one or more errors
+[2025-10-19 08:05:46] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:978:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 08:05:46] [Warn] ❗ 未翻譯錯誤訊息： Received one or more errors
+[2025-10-19 08:05:46] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Received one or more errors
+[2025-10-19 08:08:26] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 座礙嗎
+[2025-10-19 08:09:43] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶來玩王者榮耀，我艾希我妲己吧
+[2025-10-19 08:10:21] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 寶寶來玩王者榮耀，你艾希我妲己吧
+[2025-10-19 08:17:09] [Warn] ⚠️ Redis client 不合法，跳過掃描
+[2025-10-19 08:20:13] [Error] Uncaught Exception: Error: Received one or more errors
+    at _ArrayValidator.handle (/home/container/node_modules/@sapphire/shapeshift/src/validators/ArrayValidator.ts:21:90)
+    at _ArrayValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at EmbedBuilder.addFields (/home/container/node_modules/@discordjs/builders/src/messages/embed/Embed.ts:116:29)
+    at Object.logChat (/home/container/events/logEvent.js:119:6)
+    at Client.<anonymous> (/home/container/bot.js:978:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-10-19 08:33:32] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 你好啊
+[2025-10-19 08:35:33] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 這兩位是管理員大大，平時不要亂TAG：
+1. 1321430752407195693
+2. 1415307604732809277
+[2025-10-19 08:36:49] [Info] 🗨️ 使用者對我說：<@1397390948660678666> tag一下管理員我有急事

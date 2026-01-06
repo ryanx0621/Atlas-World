@@ -1,0 +1,3 @@
+{
+	"extends": ["neon/common", "neon/node", "neon/prettier"]
+}

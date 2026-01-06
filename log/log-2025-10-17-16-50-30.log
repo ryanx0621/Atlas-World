@@ -1,0 +1,108 @@
+[2025-10-17 14:54:16] [Info] ✅ 日誌建立成功
+[2025-10-17 14:54:16] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:54:16] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:54:16] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:54:16] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-14-54-16.log.gz
+[2025-10-17 14:54:16] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 14:54:17] [Info] Redis 正在連接...
+[2025-10-17 14:54:17] [Info] Redis 正在連接...
+[2025-10-17 14:54:17] [Error] Unhandled Rejection: {}
+[2025-10-17 14:54:17] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 14:54:17] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 14:54:17] [Info] Redis 正在連接...
+[2025-10-17 14:54:17] [Info] Redis 連接測試成功
+[2025-10-17 14:54:17] [Info] Redis 連接測試成功
+[2025-10-17 14:54:17] [Info] Redis 連接測試成功
+[2025-10-17 14:54:17] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:54:18] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:54:19] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:54:19] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:54:19] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:54:19] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:37:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:196:23)
+    at WebSocketShard.emit (node:events:519:28)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+    at WebSocketShard.gotGuild (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-10-17 14:54:19] [Warn] ❗ 未翻譯錯誤訊息： Channel closed
+[2025-10-17 14:54:19] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Channel closed
+[2025-10-17 14:54:20] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 14:54:20] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 14:54:20] [Info] ✅ Redis 初始化完成
+[2025-10-17 14:54:20] [Info] ✅ Redis 已連線
+[2025-10-17 14:54:21] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:54:21] [Info] ✅ 載入啟動時間: 7.65s (7651.71ms)
+[2025-10-17 14:54:23] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 14:54:33] [Info] ✅ 頭像已更新
+[2025-10-17 14:56:09] [Info] MariaDB pool 已建立並持續更新狀態
+[2025-10-17 14:57:14] [Info] ✅ 橫幅已更新
+[2025-10-17 15:11:27] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-17 15:11:27] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:43:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:268:19)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:295:37)
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/dist/index.js:1075:10)
+    at connection.onclose (/home/container/node_modules/@discordjs/ws/dist/index.js:688:17)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+[2025-10-17 15:11:28] [Info] ▶️ Shard #0 已恢復，重播事件數：8
+[2025-10-17 15:11:28] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:46:19)
+    at Client.emit (node:events:531:35)
+    at module.exports [as RESUMED] (/home/container/node_modules/discord.js/src/client/websocket/handlers/RESUMED.js:13:10)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:236:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1007:14)
+[2025-10-17 15:38:56] [Info] 🆕 新伺服器：203公差一次 (1427952255700570114)
+[2025-10-17 15:38:57] [Info] 已在 203公差一次 創建歡迎使用頻道並發送訊息
+[2025-10-17 15:41:02] [Error] 發送圖片失敗 SqlError: (conn:7529300, no: 1040, SQLState: 08004) Too many connections
+    at module.exports.createError (/home/container/node_modules/mariadb/lib/misc/errors.js:67:10)
+    at PacketNodeEncoded.readError (/home/container/node_modules/mariadb/lib/io/packet.js:588:19)
+    at Authentication.handshakeResult (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:187:32)
+    at Authentication.onPacketReceive (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:42:17)
+    at PacketInputStream.receivePacketBasic (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:85:9)
+    at PacketInputStream.onData (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:135:20)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 15:41:22] [Warn] ❌ 機器人被移出伺服器：203公差一次 (1427952255700570114)
+[2025-10-17 15:43:57] [Error] ❌ 刪除 203公差一次 頻道失敗
+[2025-10-17 16:34:01] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-17 16:34:01] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:43:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:268:19)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:295:37)
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/dist/index.js:1075:10)
+    at connection.onclose (/home/container/node_modules/@discordjs/ws/dist/index.js:688:17)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+[2025-10-17 16:34:02] [Info] ▶️ Shard #0 已恢復，重播事件數：6
+[2025-10-17 16:34:02] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:46:19)
+    at Client.emit (node:events:531:35)
+    at module.exports [as RESUMED] (/home/container/node_modules/discord.js/src/client/websocket/handlers/RESUMED.js:13:10)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:236:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1007:14)
+[2025-10-17 16:40:26] [Info] 🆕 新伺服器：FruPTTFul：果魅の園 (630256183084843008)
+[2025-10-17 16:40:26] [Error] ❌ 在 FruPTTFul：果魅の園 建立頻道失敗

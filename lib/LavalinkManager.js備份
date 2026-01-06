@@ -1,0 +1,92 @@
+const { LavalinkManager } = require('lavalink-client');
+
+class CustomLavalinkManager extends LavalinkManager {
+    constructor(client) {
+        // 先計算 nodes（用 static 方法，避開 this 問題）
+        const nodes = CustomLavalinkManager.getNodes();
+
+        super({
+            nodes,
+            sendToShard: (guildId, payload) => {
+                const guild = client.guilds.cache.get(guildId);
+                if (guild) guild.shard.send(payload);
+            },
+            autoSkip: true,
+            client: {
+                id: client.user.id,
+                username: client.user.username,
+            },
+            playerOptions: {
+                volume: 50, // 預設音量
+            }
+        });
+
+        // super 完畢，現在 this 安全了
+        this.client = client;
+        this.nodes = nodes;
+        this.currentNodeIndex = 0;
+        this.failureCount = 0;
+        this.initEvents();
+    }
+
+    // 改成 static：不用實例就能呼叫，nodes 硬編碼
+    static getNodes() {
+        return [
+            { id: 'node1', host: 'tw1.shdctw.com', port: 20070, authorization: 'APOY22883' },
+            { id: 'node2', host: 'lava-v4.ajieblogs.eu.org', port: 443, authorization: 'https://dsc.gg/ajidevserver', secure: true },
+            { id: 'node3', host: 'lava-v3.ajieblogs.eu.org', port: 443, authorization: 'https://dsc.gg/ajidevserver', secure: true }
+        ];
+    }
+
+    initEvents() {
+        this.on('ready', () => console.log('Lavalink 就緒！'));
+        this.nodeManager.on('connect', (node) => {
+            console.log(`節點 ${node.id} 連線成功！`);
+            this.failureCount = 0; // 重置
+        });
+        this.nodeManager.on('error', (node, error) => {
+            console.error(`節點 ${node.id} 錯誤:`, error.message);
+            this.handleNodeFailure();
+        });
+        this.nodeManager.on('disconnect', (node) => {
+            console.log(`節點 ${node.id} 斷線`);
+            this.handleNodeFailure();
+        });
+    }
+
+    handleNodeFailure() {
+        this.failureCount++;
+        if (this.failureCount >= this.nodes.length) {
+            console.error('所有節點失效，停止操作');
+            // 可發全局錯誤事件或 log
+            return;
+        }
+        // 循環切換下個節點
+        this.currentNodeIndex = (this.currentNodeIndex + 1) % this.nodes.length;
+        const nextNode = this.nodes[this.currentNodeIndex];
+        console.log(`Fallback 到節點 ${nextNode.id}`);
+        this.nodeManager.addNode(nextNode).catch(err => console.error('Fallback 失敗:', err));
+    }
+
+    async getAvailableNode() {
+        // 試當前節點，如果壞了 fallback
+        const node = this.nodeManager.nodes.get(this.nodes[this.currentNodeIndex].id);
+        if (node && node.state === 'CONNECTED') return node;
+
+        // 強制 fallback
+        this.handleNodeFailure();
+        if (this.failureCount >= this.nodes.length) {
+            throw new Error('所有節點都掛了，無法播放音樂！😭 檢查伺服器狀態吧。');
+        }
+        return this.nodeManager.nodes.get(this.nodes[this.currentNodeIndex].id);
+    }
+
+    async createPlayer(options) {
+        const node = await this.getAvailableNode();
+        if (!node) throw new Error('無法找到可用節點');
+        options.node = node;
+        return super.create(options);
+    }
+}
+
+module.exports = CustomLavalinkManager;

@@ -1,0 +1,38 @@
+[2025-10-17 16:52:46] [Info] ✅ 日誌建立成功
+[2025-10-17 16:52:46] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 16:52:46] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 16:52:46] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 16:52:47] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-16-52-46.log.gz
+[2025-10-17 16:52:47] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 16:52:47] [Info] Redis 正在連接...
+[2025-10-17 16:52:47] [Info] Redis 正在連接...
+[2025-10-17 16:52:47] [Info] Redis 正在連接...
+[2025-10-17 16:52:47] [Error] 導入失敗： SqlError: (conn:7530907, no: 1040, SQLState: 08004) Too many connections
+    at module.exports.createError (/home/container/node_modules/mariadb/lib/misc/errors.js:67:10)
+    at PacketNodeEncoded.readError (/home/container/node_modules/mariadb/lib/io/packet.js:588:19)
+    at Authentication.handshakeResult (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:187:32)
+    at Authentication.onPacketReceive (/home/container/node_modules/mariadb/lib/cmd/handshake/authentication.js:42:17)
+    at PacketInputStream.receivePacketBasic (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:85:9)
+    at PacketInputStream.onData (/home/container/node_modules/mariadb/lib/io/packet-input-stream.js:135:20)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-17 16:52:47] [Error] Unhandled Rejection: {}
+[2025-10-17 16:52:47] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 16:52:47] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 16:52:47] [Info] Redis 連接測試成功
+[2025-10-17 16:52:47] [Info] Redis 連接測試成功
+[2025-10-17 16:52:47] [Info] Redis 連接測試成功
+[2025-10-17 16:52:48] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 16:52:48] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 16:52:49] [Info] ✅ Shard #0 已就緒
+[2025-10-17 16:52:49] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 16:52:50] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 16:52:50] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 16:52:50] [Info] ✅ Redis 初始化完成
+[2025-10-17 16:52:50] [Info] ✅ Redis 已連線
+[2025-10-17 16:52:51] [Info] ✅ 載入啟動時間: 7.86s (7862.46ms)
+[2025-10-17 16:52:53] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 16:53:03] [Info] ✅ 頭像已更新
+[2025-10-17 16:53:04] [Info] ✅ 橫幅已更新

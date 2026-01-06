@@ -1,0 +1,42 @@
+[2025-10-17 14:48:03] [Info] ✅ 日誌建立成功
+[2025-10-17 14:48:03] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:48:03] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:48:03] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:48:03] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-14-48-03.log.gz
+[2025-10-17 14:48:03] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 14:48:03] [Error] Unhandled Rejection: {}
+[2025-10-17 14:48:03] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 14:48:03] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 14:48:03] [Info] Redis 正在連接...
+[2025-10-17 14:48:03] [Info] Redis 正在連接...
+[2025-10-17 14:48:03] [Info] Redis 正在連接...
+[2025-10-17 14:48:03] [Error] Unhandled Rejection: {}
+[2025-10-17 14:48:04] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:48:04] [Info] Redis 連接測試成功
+[2025-10-17 14:48:04] [Info] Redis 連接測試成功
+[2025-10-17 14:48:04] [Info] Redis 連接測試成功
+[2025-10-17 14:48:04] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:48:04] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:48:06] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:48:06] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:48:06] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:37:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:196:23)
+    at WebSocketShard.emit (node:events:519:28)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+    at WebSocketShard.gotGuild (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-10-17 14:48:06] [Warn] ❗ 未翻譯錯誤訊息： Channel closed
+[2025-10-17 14:48:06] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Channel closed
+[2025-10-17 14:48:07] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 14:48:07] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 14:48:07] [Info] ✅ Redis 初始化完成
+[2025-10-17 14:48:07] [Info] ✅ Redis 已連線
+[2025-10-17 14:48:08] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:48:08] [Info] ✅ 載入啟動時間: 7.55s (7546.20ms)
+[2025-10-17 14:48:10] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 14:48:20] [Info] ✅ 頭像已更新

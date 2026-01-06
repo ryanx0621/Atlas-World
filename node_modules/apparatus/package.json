@@ -1,0 +1,42 @@
+{
+  "name": "apparatus",
+  "description": "various machine learning routines for node",
+  "version": "0.0.10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaturalNode/apparatus"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.2.6"
+  },
+  "dependencies": {
+    "sylvester": ">= 0.0.8"
+  },
+  "devDependencies": {
+    "jasmine-node": ">=1.0.26"
+  },
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node ."
+  },
+  "author": "Chris Umbel <chris@chrisumbel.com>",
+  "keywords": [
+    "machine",
+    "learning",
+    "ml",
+    "classifier",
+    "clustering",
+    "bayes",
+    "k-means",
+    "logistic",
+    "regression"
+  ],
+  "main": "./lib/apparatus/index.js",
+  "maintainers": [
+    {
+      "name": "Chris Umbel",
+      "email": "chris@chrisumbel.com",
+      "web": "http://www.chrisumbel.com"
+    }
+  ]
+}

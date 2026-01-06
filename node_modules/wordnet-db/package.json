@@ -1,0 +1,29 @@
+{
+  "name": "wordnet-db",
+  "version": "3.1.14",
+  "description": "WordNet 3.1 Database files",
+  "author": "Moos <mooster@42at.com>",
+  "keywords": [
+    "WordNet",
+    "wordpos",
+    "natural",
+    "pos"
+  ],
+  "homepage": "http://wordnet.princeton.edu/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moos/wordnet-db.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "detect-newline": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "prepublish": "npm test"
+  }
+}

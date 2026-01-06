@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "resolveJsonModule": true,
+    "lib": [
+      "es6"
+    ],
+    "module": "commonjs",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "./dist/cjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": [
+    "lib/natural/**/*.ts",
+    "spec/*.ts",
+    "io_spec/*.ts",
+    "lib/natural/analyzers/SenType.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

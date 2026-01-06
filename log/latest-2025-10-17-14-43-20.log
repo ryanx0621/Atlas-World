@@ -1,0 +1,169 @@
+[2025-10-17 14:43:10] [Info] ✅ 日誌建立成功
+[2025-10-17 14:43:11] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:43:11] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:43:11] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:43:11] [Info] ✅ 日誌建立成功
+[2025-10-17 14:43:11] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:43:11] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:43:11] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:43:12] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Info] Redis 正在連接...
+[2025-10-17 14:43:12] [Error] Unhandled Rejection: {}
+[2025-10-17 14:43:12] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 14:43:12] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 14:43:12] [Error] Unhandled Rejection: {}
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] Redis 連接測試成功
+[2025-10-17 14:43:12] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:43:12] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:43:12] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:43:13] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:43:15] [Info] ✅ 載入啟動時間: 11.29s (11288.53ms)
+[2025-10-17 14:43:16] [Info] ✅ 載入啟動時間: 11.57s (11572.25ms)
+[2025-10-17 14:43:18] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:43:18] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:43:18] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:43:18] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:43:20] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:43:20] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:43:21] [Error] Unhandled Rejection: Error [ShardingReadyDied]: Shard 0's process exited before its Client became ready.
+    at Shard.onDeath (/home/container/node_modules/discord.js/src/sharding/Shard.js:185:16)
+    at Object.onceWrapper (node:events:634:26)
+    at Shard.emit (node:events:519:28)
+    at Shard._handleExit (/home/container/node_modules/discord.js/src/sharding/Shard.js:446:10)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[2025-10-17 14:43:21] [Warn] ❗ 未翻譯錯誤訊息： Shard 0's process exited before its Client became ready.
+[2025-10-17 14:43:21] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）Shard 0's process exited before its Client became ready.
+[2025-10-17 14:43:55] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 14:43:55] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 14:43:55] [Info] ✅ Redis 初始化完成
+[2025-10-17 14:43:56] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:56] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:56] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:56] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:57] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:57] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:57] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:57] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:58] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:58] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:58] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 14:43:59] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:59] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:43:59] [Info] ✅ Redis 已連線
+[2025-10-17 14:43:59] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:00] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:00] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:01] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:01] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:02] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:02] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:02] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:03] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:03] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:04] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:04] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:05] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:05] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:06] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:07] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:07] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:08] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:08] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:08] [Info] ✅ 頭像已更新
+[2025-10-17 14:44:09] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:09] [Warn] ⚠️ 設定橫幅太快或權限不足
+[2025-10-17 14:44:09] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:10] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:10] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:11] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:12] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:13] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:13] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:14] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:14] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:16] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:16] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:17] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:17] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:19] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:19] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:20] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:21] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:23] [Warn] 🐢 Event Loop 延遲：1599ms
+[2025-10-17 14:44:23] [Warn] 🐌 事件迴圈延遲過長：1787ms
+[2025-10-17 14:44:23] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:23] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:25] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:25] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:27] [Info] ✅ Redis 已連線
+[2025-10-17 14:44:27] [Error] ❌ Redis 錯誤: ReplyError: ERR max number of clients reached
+    at parseError (/home/container/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/container/node_modules/redis-parser/lib/parser.js:302:14)
+[2025-10-17 14:44:28] [Info] 🧹 Node.js 進程結束：0
+[2025-10-17 14:44:29] [Info] 🧹 Node.js 進程結束：0

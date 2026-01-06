@@ -1,0 +1,48 @@
+[2025-10-17 14:41:00] [Info] ✅ 日誌建立成功
+[2025-10-17 14:41:00] [Info] ✅ 模組快取已清除完畢
+[2025-10-17 14:41:00] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-17 14:41:00] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-17 14:41:00] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-17-14-41-00.log.gz
+[2025-10-17 14:41:00] [Info] 🗑️ 已刪除舊日誌
+[2025-10-17 14:41:00] [Error] Unhandled Rejection: {}
+[2025-10-17 14:41:00] [Warn] ❗ 未翻譯錯誤訊息： [object Response]
+[2025-10-17 14:41:00] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）[object Response]
+[2025-10-17 14:41:00] [Error] Unhandled Rejection: {}
+[2025-10-17 14:41:00] [Info] ✅ MariaDB 連線成功
+[2025-10-17 14:41:00] [Info] Redis 正在連接...
+[2025-10-17 14:41:00] [Info] Redis 正在連接...
+[2025-10-17 14:41:00] [Info] Redis 正在連接...
+[2025-10-17 14:41:01] [Info] Redis 連接測試成功
+[2025-10-17 14:41:01] [Info] Redis 連接測試成功
+[2025-10-17 14:41:01] [Info] Redis 連接測試成功
+[2025-10-17 14:41:01] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:41:01] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-17 14:41:03] [Info] ✅ Shard #0 已就緒
+[2025-10-17 14:41:03] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-17 14:41:05] [Info] 🎉 所有未導入的圖片已成功導入資料庫！
+[2025-10-17 14:41:05] [Info] ✅ 載入啟動時間: 8.21s (8212.49ms)
+[2025-10-17 14:42:01] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-17 14:42:01] [Info] 🤖 當前版本: VP2.1.0
+[2025-10-17 14:42:01] [Info] ✅ Redis 初始化完成
+[2025-10-17 14:42:01] [Info] ✅ Redis 已連線
+[2025-10-17 14:42:04] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-17 14:42:14] [Error] ❌ 設定頭像失敗： DiscordAPIError[50035]: Invalid Form Body
+avatar[AVATAR_RATE_LIMIT]: You are changing your avatar too fast. Try again later.
+    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:762:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:1163:23)
+    at async SequentialHandler.queueRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:994:14)
+    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1307:22)
+    at async ClientUser.edit (/home/container/node_modules/discord.js/src/structures/ClientUser.js:59:18)
+    at async Timeout.updateStatus [as _onTimeout] (/home/container/bot.js:409:15)
+[2025-10-17 14:42:15] [Warn] ⚠️ 設定橫幅太快或權限不足
+[2025-10-17 14:42:36] [Error] ❌ 設定頭像失敗： DiscordAPIError[50035]: Invalid Form Body
+avatar[AVATAR_RATE_LIMIT]: You are changing your avatar too fast. Try again later.
+    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:762:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:1163:23)
+    at async SequentialHandler.queueRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:994:14)
+    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1307:22)
+    at async ClientUser.edit (/home/container/node_modules/discord.js/src/structures/ClientUser.js:59:18)
+    at async Timeout.updateStatus [as _onTimeout] (/home/container/bot.js:409:15)
+[2025-10-17 14:42:36] [Warn] ⚠️ 設定橫幅太快或權限不足

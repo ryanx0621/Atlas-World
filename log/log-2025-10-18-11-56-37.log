@@ -1,0 +1,72 @@
+[2025-10-18 07:40:10] [Info] ✅ 日誌建立成功
+[2025-10-18 07:40:10] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 07:40:10] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 07:40:10] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 07:40:10] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-18-07-40-10.log.gz
+[2025-10-18 07:40:10] [Info] 🗑️ 已刪除舊日誌
+[2025-10-18 07:40:11] [Info] ✅ Shard #0 已就緒
+[2025-10-18 07:40:11] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-18 07:40:11] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-18 07:40:11] [Error] 導入失敗： SqlError: (conn:7543502, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+    at Object.module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at node:internal/modules/cjs/loader:1839:10
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+[2025-10-18 07:40:11] [Info] 🔁 使用第 1 組 API 金鑰 (AIzaSy...YjNA)
+[2025-10-18 07:40:12] [Info] 🔁 全域 Slash 指令已更新
+[2025-10-18 07:40:12] [Info] 🤖 當前版本: V2.2.0
+[2025-10-18 07:40:15] [Info] ✅ 載入啟動時間: 9.25s (9245.91ms)
+[2025-10-18 07:40:15] [Info] %s: %s Bot啟動時間 5.000s
+[2025-10-18 07:40:15] [Info] [DEBUG] 開始定期狀態更新
+[2025-10-18 07:40:25] [Info] ✅ 頭像已更新
+[2025-10-18 07:40:26] [Info] ✅ 橫幅已更新
+[2025-10-18 07:40:57] [Info] MariaDB pool 已建立並持續更新狀態
+[2025-10-18 08:27:00] [Warn] 🔁 Shard #0 正在重新連線
+[2025-10-18 08:27:01] [Info] ▶️ Shard #0 已恢復，重播事件數：5
+[2025-10-18 08:40:17] [Error] Unhandled Rejection: ReferenceError: redisCache is not defined
+    at Timeout._onTimeout (/home/container/bot.js:343:24)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+[2025-10-18 08:40:17] [Warn] ❗ 未翻譯錯誤訊息： redisCache is not defined
+[2025-10-18 08:40:17] [Error] ❌ 未處理的 Promise 拋出： （未翻譯）redisCache is not defined
+[2025-10-18 09:40:17] [Error] Unhandled Rejection: ReferenceError: redisCache is not defined
+    at Timeout._onTimeout (/home/container/bot.js:343:24)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+[2025-10-18 09:40:19] [Error] 刷新狀態錯誤: {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.update (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:361:22)\n    at async Object.reply (/home/container/bot.js:687:37)\n    at async Object.execute (/home/container/commands/status.js:486:5)\n    at async Client.<anonymous> (/home/container/bot.js:690:9)","code":10062,"method":"POST"}
+[2025-10-18 09:40:19] [Warn] ℹ️ Node.js 警告：Warning - 傳入 "ephemeral" 已被棄用，請改用 flags 參數
+[2025-10-18 09:40:19] [Error] ❌ 互動處理錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)\n    at async Client.<anonymous> (/home/container/bot.js:694:11)","code":10062,"method":"POST"}
+[2025-10-18 10:40:17] [Error] Unhandled Rejection: ReferenceError: redisCache is not defined
+    at Timeout._onTimeout (/home/container/bot.js:343:24)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+[2025-10-18 11:25:34] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 分析我們所有的聊天記錄，並分析我這個人
+[2025-10-18 11:27:23] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 依照你和我的記憶，分析一下我從一開始做你到現在的過程
+[2025-10-18 11:32:55] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 我剛剛問了你幾個問題
+[2025-10-18 11:35:32] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 依照你對我的記憶，我總共教會了你「幾個」知識？
+[2025-10-18 11:39:32] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 依照你對我的記憶，我總共教會了你「幾個」知識？給我數字就好
+[2025-10-18 11:40:17] [Error] Unhandled Rejection: ReferenceError: redisCache is not defined
+    at Timeout._onTimeout (/home/container/bot.js:343:24)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+[2025-10-18 11:42:51] [Info] 🆕 新伺服器：測試區 (1353339053637894154)
+[2025-10-18 11:42:51] [Info] 已在 測試區 創建歡迎使用頻道並發送訊息
+[2025-10-18 11:43:22] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 你好
+[2025-10-18 11:43:59] [Info] 🗨️ 使用者對我說：<@1397390948660678666> 讓我對妳擼管
+[2025-10-18 11:44:19] [Error] ❌ 指令「其他-當前狀態」執行錯誤： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ChatInputCommandInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)\n    at async Object.execute (/home/container/commands/status.js:486:5)\n    at async Client.<anonymous> (/home/container/bot.js:587:9)","code":10062,"method":"POST"}
+[2025-10-18 11:44:19] [Error] ❌ 互動處理錯誤： {"name":"ReferenceError","message":"message is not defined","stack":"ReferenceError: message is not defined\n    at Client.<anonymous> (/home/container/bot.js:601:1)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+[2025-10-18 11:44:25] [Info] ⏰ Timeout!
+[2025-10-18 11:44:25] [Warn] ⚠️ 自動回應失敗： {"name":"DiscordAPIError[10062]","message":"Unknown interaction","stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/src/lib/handlers/BurstHandler.ts:144:20)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)\n    at async ChatInputCommandInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)\n    at async Timeout._onTimeout (/home/container/bot.js:574:15)","code":10062,"method":"POST"}
+[2025-10-18 11:47:52] [Info] ✅ 已自動刪除 測試區 的頻道
+[2025-10-18 11:54:36] [Info] 🧹 Node.js 進程結束：0

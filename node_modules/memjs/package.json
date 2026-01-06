@@ -1,0 +1,38 @@
+{
+  "author": "Amit Levy",
+  "name": "memjs",
+  "description": "A memcache client for node using the binary protocol and SASL authentication",
+  "version": "1.3.2",
+  "license": "MIT",
+  "homepage": "http://github.com/memcachier/memjs",
+  "keywords": [
+    "cache",
+    "memcache",
+    "memcached",
+    "MemCachier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/memcachier/memjs.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "./lib/memjs/memjs",
+  "directories": {
+    "lib": "./lib/memjs"
+  },
+  "scripts": {
+    "test": "eslint ./lib/memjs/ ./test/ && tap -R spec ./test/*.js",
+    "bench": "NODE_PATH=lib/memjs/ node bench/memjs.js",
+    "bench-timers": "NODE_PATH=lib/memjs/ node bench/timers.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "docco": "^0.8.0",
+    "eslint": "4.18.2",
+    "microtime": "^3.0.0",
+    "tap": "4.0.*"
+  }
+}

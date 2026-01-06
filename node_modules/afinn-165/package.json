@@ -1,0 +1,76 @@
+{
+  "name": "afinn-165",
+  "version": "1.0.4",
+  "description": "AFINN 165 (list of English words rated for valence) in JSON",
+  "license": "MIT",
+  "keywords": [
+    "anew",
+    "afinn",
+    "word",
+    "list",
+    "sentiment",
+    "analysis",
+    "opinion",
+    "mining",
+    "text",
+    "microblogs"
+  ],
+  "repository": "words/afinn-165",
+  "bugs": "https://github.com/words/afinn-165/issues",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/wooorm"
+  },
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bail": "^1.0.0",
+    "browserify": "^16.0.0",
+    "csv-streamify": "^4.0.0",
+    "join-stream": "0.0.0",
+    "prettier": "^1.0.0",
+    "readable-stream": "^3.0.0",
+    "remark-cli": "^7.0.0",
+    "remark-preset-wooorm": "^6.0.0",
+    "tape": "^4.0.0",
+    "tinyify": "^2.0.0",
+    "wrap-stream": "^2.0.0",
+    "xo": "^0.25.0"
+  },
+  "scripts": {
+    "generate": "node build",
+    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+    "build-bundle": "browserify index.json -s afinn165 -o afinn-165.js",
+    "build-mangle": "browserify index.json -s afinn165 -p tinyify -o afinn-165.min.js",
+    "build": "npm run build-bundle && npm run build-mangle",
+    "test-api": "node test",
+    "test": "npm run format && npm run build && npm run test-api"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "prettier": true,
+    "esnext": false,
+    "ignores": [
+      "afinn-165.js"
+    ]
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-wooorm"
+    ]
+  }
+}

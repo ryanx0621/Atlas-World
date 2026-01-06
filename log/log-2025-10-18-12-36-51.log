@@ -1,0 +1,30 @@
+[2025-10-18 12:36:38] [Info] ✅ 日誌建立成功
+[2025-10-18 12:36:38] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 12:36:46] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 12:36:46] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 12:36:46] [Error] 導入失敗： SqlError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 7608ms
+    at module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at process.processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+[2025-10-18 12:36:46] [Info] ✅ 載入啟動時間: 48.10s (48102.34ms)
+[2025-10-18 12:36:46] [Info] %s: %s Bot啟動時間 8.106s
+[2025-10-18 12:36:46] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-18-12-36-38.log.gz
+[2025-10-18 12:36:46] [Info] 🗑️ 已刪除舊日誌
+[2025-10-18 12:36:47] [Info] ✓ 分片 0 已啟動
+[2025-10-18 12:36:47] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 12:36:47] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 12:36:47] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 12:36:47] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 12:36:47] [Warn] ⚠️ 第 4 組 API 金鑰 ping 失敗，嘗試下一組...

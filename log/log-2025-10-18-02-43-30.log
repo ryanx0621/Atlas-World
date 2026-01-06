@@ -1,0 +1,163 @@
+[2025-10-18 02:43:20] [Info] ✅ 日誌建立成功
+[2025-10-18 02:43:20] [Info] ✅ 模組快取已清除完畢
+[2025-10-18 02:43:21] [Info] ✅ 已載入翻譯詞條數：48
+[2025-10-18 02:43:21] [Info] ✅所有初始化作業已完成，正在啟動...
+[2025-10-18 02:43:21] [Error] 導入失敗： SqlError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1074ms
+    at module.exports.createFatalError (/home/container/node_modules/mariadb/lib/misc/errors.js:91:10)
+    at Connection.connectTimeoutReached (/home/container/node_modules/mariadb/lib/connection.js:1410:24)
+    at listOnTimeout (node:internal/timers:590:11)
+    at process.processTimers (node:internal/timers:523:7)
+ From event:
+    at /home/container/node_modules/mariadb/lib/connection.js:146:13
+    at new Promise (<anonymous>)
+    at Connection.connect (/home/container/node_modules/mariadb/lib/connection.js:132:12)
+    at Object.createConnection (/home/container/node_modules/mariadb/promise.js:37:17)
+    at /home/container/import.js:41:30
+    at Object.<anonymous> (/home/container/import.js:98:3)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+[2025-10-18 02:43:21] [Info] ✅ 壓縮完成： /home/container/log/log-2025-10-18-02-43-19.log.gz
+[2025-10-18 02:43:21] [Info] 🗑️ 已刪除舊日誌
+[2025-10-18 02:43:21] [Info] Shard 0 created (pid n/a)
+[2025-10-18 02:43:23] [Info] Redis 正在連接...
+[2025-10-18 02:43:23] [Info] Redis 正在連接...
+[2025-10-18 02:43:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:43:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:43:23] [Info] Redis 正在連接...
+[2025-10-18 02:43:23] [Error] Redis Client Error: Error: ERR max number of clients reached
+    at #decodeSimpleError (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:459:13)
+    at #decodeTypeValue (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:104:91)
+    at Decoder.write (/home/container/node_modules/@redis/client/dist/lib/RESP/decoder.js:74:38)
+    at RedisSocket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/index.js:399:37)
+    at RedisSocket.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/container/node_modules/@redis/client/dist/lib/client/socket.js:205:38)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2025-10-18 02:43:23] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 38.361963211s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}]
+[2025-10-18 02:43:23] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 38.282025288s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 1 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 36.078557187s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Info] Redis 正在連接...
+[2025-10-18 02:43:24] [Info] Redis 正在連接...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.778899371s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 2 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.778746214s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Info] Redis 正在連接...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.671473089s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 3 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 4 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 4 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.477129714s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 5 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.47408355s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 5 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.374705242s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 6 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.380223569s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 6 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Info] Redis 連接測試成功
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.271987464s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 7 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.276701861s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 7 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Info] Redis 連接測試成功
+[2025-10-18 02:43:24] [Info] Redis 連接測試成功
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.176449216s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 8 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.183592367s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 8 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Info] ✅ 載入啟動時間: 15.20s (15200.06ms)
+[2025-10-18 02:43:24] [Info] %s: %s Bot啟動時間 5.000s
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.076713501s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 9 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:24] [Warn] ping 測試失敗：[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250
+Please retry in 35.070544375s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2025-10-18 02:43:24] [Warn] ⚠️ 第 9 組 API 金鑰 ping 失敗，嘗試下一組...
+[2025-10-18 02:43:25] [Info] 🔁 使用第 10 組 API 金鑰 (AIzaSy...ZgFQ)
+[2025-10-18 02:43:25] [Info] 🔁 使用第 10 組 API 金鑰 (AIzaSy...ZgFQ)
+[2025-10-18 02:43:28] [Info] ✅ Shard #0 已就緒
+[2025-10-18 02:43:28] [Info] ✅ 已登入為 TSBOT#7103
+[2025-10-18 02:43:28] [Error] [uncaughtException] Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:37:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:196:23)
+    at WebSocketShard.emit (node:events:519:28)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+    at WebSocketShard.gotGuild (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-10-18 02:43:28] [Error] Uncaught Exception: Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at target.send (node:internal/child_process:753:16)
+    at Client.<anonymous> (/home/container/node_modules/discord.js/src/sharding/ShardClientUtil.js:37:19)
+    at Client.emit (node:events:531:35)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:196:23)
+    at WebSocketShard.emit (node:events:519:28)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+    at WebSocketShard.gotGuild (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-10-18 02:43:28] [Warn] ❗ 未翻譯錯誤訊息： Channel closed
+[2025-10-18 02:43:28] [Error] ⚠️ 捕獲未處理例外： （未翻譯）Channel closed
