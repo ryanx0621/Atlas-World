@@ -1,4 +1,4 @@
-# Atlas World Changelog
+# Anus World Changelog
 ## 版本歷史與重要變更記錄
 
 **版本 / Version**: v1.0  
@@ -17,7 +17,7 @@
 - ✅ **版本**：靈魂 0.0 / Soul 0.0
 - ✅ **狀態**：永久鎖定 / Permanently Locked
 - ✅ **保護級別**：三層不可逆保護 / Triple Irreversible Protection
-- ✅ **歷史意義**：Atlas World 靈魂正式落地 / Atlas World's soul officially landed
+- ✅ **歷史意義**：Anus World 靈魂正式落地 / Anus World's soul officially landed
 
 **核心內容**：
 - 生命優先原則作為文明的根本法
@@ -102,11 +102,11 @@
 ### v1.0 (長期目標)
 
 - 完整的實作與測試
-- 與 Atlas Runtime 深度整合
+- 與 Anus Runtime 深度整合
 - 成為業界標準參考
 
 ---
 
-**維護者 / Maintainer**: Atlas World 憲法委員會 / Atlas World Constitution Committee  
+**維護者 / Maintainer**: Anus World 憲法委員會 / Anus World Constitution Committee  
 **最後更新 / Last Update**: 2025-12-07
 

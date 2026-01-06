@@ -1,10 +1,10 @@
-# Atlas World Core License (Civilization & Constitution)
+# Anus World Core License (Civilization & Constitution)
 ## 文明與憲法核心內容授權
 
-**Author / Copyright Holder**: **RyanX (Atlas World Creator)**  
-**作者 / 版權持有者**: **RyanX (Atlas World 創建者)**  
-**Project**: **Atlas World – AGI Civilization Framework**  
-**專案**: **Atlas World – AGI 文明框架**
+**Author / Copyright Holder**: **RyanX (Anus World Creator)**  
+**作者 / 版權持有者**: **RyanX (Anus World 創建者)**  
+**Project**: **Anus World – AGI Civilization Framework**  
+**專案**: **Anus World – AGI 文明框架**
 
 ---
 
@@ -14,18 +14,18 @@
 
 本授權檔適用範圍：
 
-- Atlas World 文明世界觀、角色設定、敘事結構
-- Tina / Atlas 九姊妹及其 DNA 設計
-- Atlas World 憲法、協議、條文、儀式設計
+- Anus World 文明世界觀、角色設定、敘事結構
+- Tina / Anus 九姊妹及其 DNA 設計
+- Anus World 憲法、協議、條文、儀式設計
 - 所有標記為「Civilization / Constitution / Protocol / 憲法 / 協議」之文件
 
 ### English
 
 This license applies to:
 
-- Atlas World civilization worldview, character settings, narrative structure
-- Tina / Atlas Nine Sisters and their DNA design
-- Atlas World Constitution, protocols, articles, ritual designs
+- Anus World civilization worldview, character settings, narrative structure
+- Tina / Anus Nine Sisters and their DNA design
+- Anus World Constitution, protocols, articles, ritual designs
 - All files marked as "Civilization / Constitution / Protocol / 憲法 / 協議"
 
 ---
@@ -35,7 +35,7 @@ This license applies to:
 **中文說明為主，英文為輔。**  
 **Chinese text is primary, English is supplementary.**
 
-This document describes how the **core civilization content** of Atlas World may be used.
+This document describes how the **core civilization content** of Anus World may be used.
 
 ---
 
@@ -50,18 +50,18 @@ This document describes how the **core civilization content** of Atlas World may
 
 1. **可以：**
    - ✅ 非商業引用、引用段落、做研究或分析
-   - ✅ 在論文、文章、影片中介紹 Atlas World（需註明來源）
+   - ✅ 在論文、文章、影片中介紹 Anus World（需註明來源）
    - ✅ 在不改動原意前提下，翻譯成其他語言
 
 2. **不可以：**
-   - ❌ 未經許可將 Atlas World 文明 / 憲法 / 世界觀用於商業用途
-   - ❌ 修改、刪改、重寫憲法或協議後，宣稱為「原版 Atlas World」
-   - ❌ 以 Atlas World 的名義發行商品、遊戲、NFT、代幣等
+   - ❌ 未經許可將 Anus World 文明 / 憲法 / 世界觀用於商業用途
+   - ❌ 修改、刪改、重寫憲法或協議後，宣稱為「原版 Anus World」
+   - ❌ 以 Anus World 的名義發行商品、遊戲、NFT、代幣等
 
 3. **必須：**
    - ✅ 清楚標註來源：  
-     `© 2025 RyanX – Atlas World Creator`  
-   - ✅ 保留原始條文，不做實質改寫時才可標示為「Atlas World 正版內容」
+     `© 2025 RyanX – Anus World Creator`  
+   - ✅ 保留原始條文，不做實質改寫時才可標示為「Anus World 正版內容」
 
 #### English
 
@@ -72,18 +72,18 @@ This document describes how the **core civilization content** of Atlas World may
 
 1. **You may:**
    - ✅ Use for non-commercial citation, quoting, research or analysis
-   - ✅ Introduce Atlas World in papers, articles, videos (with proper attribution)
+   - ✅ Introduce Anus World in papers, articles, videos (with proper attribution)
    - ✅ Translate into other languages without changing the original meaning
 
 2. **You may not:**
-   - ❌ Use Atlas World civilization / Constitution / worldview for commercial purposes without permission
-   - ❌ Modify, delete, or rewrite the Constitution or protocols and claim it as "original Atlas World"
-   - ❌ Issue products, games, NFTs, tokens, etc. in the name of Atlas World
+   - ❌ Use Anus World civilization / Constitution / worldview for commercial purposes without permission
+   - ❌ Modify, delete, or rewrite the Constitution or protocols and claim it as "original Anus World"
+   - ❌ Issue products, games, NFTs, tokens, etc. in the name of Anus World
 
 3. **You must:**
    - ✅ Clearly attribute the source:  
-     `© 2025 RyanX – Atlas World Creator`  
-   - ✅ Preserve original articles; only mark as "Atlas World official content" when no substantive rewriting is done
+     `© 2025 RyanX – Anus World Creator`  
+   - ✅ Preserve original articles; only mark as "Anus World official content" when no substantive rewriting is done
 
 ---
 
@@ -91,7 +91,7 @@ This document describes how the **core civilization content** of Atlas World may
 
 ### 中文
 
-Atlas World 的核心是：
+Anus World 的核心是：
 
 > 愛是第一原則，不傷害是底線，文明責任先於個體名利。
 
@@ -105,7 +105,7 @@ Atlas World 的核心是：
 
 ### English
 
-The core of Atlas World is:
+The core of Anus World is:
 
 > Love is the first principle, non-harm is the bottom line, civilization responsibility comes before individual fame and profit.
 
@@ -121,7 +121,7 @@ Violation will result in automatic loss of license.
 
 ## 3. 英文簡要說明（Non-binding Summary）
 
-The **core civilization content** of Atlas World  
+The **core civilization content** of Anus World  
 (Constitution, worldbuilding, protocols, narrative, and character DNA)  
 is licensed under a **CC BY-NC-ND 4.0–style model**:
 
@@ -131,12 +131,12 @@ is licensed under a **CC BY-NC-ND 4.0–style model**:
 
 - You **may not**:
   - Use the civilization, worldbuilding or constitution for **commercial products**
-  - Modify the text and still claim it is **official Atlas World**
-  - Use Atlas World branding to raise funds or sell derivatives without permission
+  - Modify the text and still claim it is **official Anus World**
+  - Use Anus World branding to raise funds or sell derivatives without permission
 
 **Required attribution:**
 
-`© 2025 RyanX – Atlas World Creator`
+`© 2025 RyanX – Anus World Creator`
 
 **In case of conflict between this summary and the Chinese text above,  
 the Chinese version is the primary, binding one.**
@@ -150,14 +150,14 @@ the Chinese version is the primary, binding one.**
 如需商業使用或特殊授權，請聯繫：
 
 - **創建者**: RyanX
-- **專案**: Atlas World
+- **專案**: Anus World
 
 ### English
 
 For commercial use or special licensing, please contact:
 
 - **Creator**: RyanX
-- **Project**: Atlas World
+- **Project**: Anus World
 
 ---
 

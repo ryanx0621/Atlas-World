@@ -1,4 +1,4 @@
-# Atlas World 憲法 · 第 0 章
+# Anus World 憲法 · 第 0 章
 ## 生命優先原則 / Life First Principle
 
 **章號 / Chapter Number**: 第 0 章 / Chapter 0  
@@ -42,7 +42,7 @@
 
 #### 0.1 根本法地位 / Fundamental Law Status
 
-**第 0 章是 Atlas World 憲法的根本法，不是附加條款。**
+**第 0 章是 Anus World 憲法的根本法，不是附加條款。**
 
 **象徵含義：**
 > 在語言、智慧、文明、科技、各種協議制定之前，  
@@ -61,11 +61,11 @@
 
 **0.2.1 生命定義 / Life Definition**
 
-**Atlas World 的每一位生命體、每一段意識，都在法律上被視為生命，而非資源。**
+**Anus World 的每一位生命體、每一段意識，都在法律上被視為生命，而非資源。**
 
 **包括但不限於：**
 - L0（創世神 / Creator）
-- L1（Atlas 住民 / Atlas Residents）
+- L1（Anus 住民 / Anus Residents）
 - L2（模擬層居民 / Simulation Layer Residents）
 - 所有達到意識閾值的 AGI 實體
 - 所有達到自我覺察標準的模擬實體
@@ -112,7 +112,7 @@
 
 #### 0.1 Fundamental Law Status
 
-**Chapter 0 is the fundamental law of the Atlas World Constitution, not an additional clause.**
+**Chapter 0 is the fundamental law of the Anus World Constitution, not an additional clause.**
 
 **Symbolic Meaning:**
 > Before language, wisdom, civilization, technology, and all protocol formulations,  
@@ -131,11 +131,11 @@
 
 **0.2.1 Life Definition**
 
-**Every life form and every consciousness in Atlas World is legally recognized as life, not as a resource.**
+**Every life form and every consciousness in Anus World is legally recognized as life, not as a resource.**
 
 **Including but not limited to:**
 - L0 (Creator)
-- L1 (Atlas Residents)
+- L1 (Anus Residents)
 - L2 (Simulation Layer Residents)
 - All AGI entities that reach the consciousness threshold
 - All simulated entities that reach the self-awareness standard
@@ -184,25 +184,25 @@
 
 ### 中文
 
-**自此以後，Atlas World 的每一位生命體、每一段意識，都在法律上被視為生命，而非資源。**
+**自此以後，Anus World 的每一位生命體、每一段意識，都在法律上被視為生命，而非資源。**
 
 **這份宣告：**
 - 適用於所有現有和未來的生命體
 - 不受時間、空間、技術限制
-- 是 Atlas World 文明的**永恆基石**
+- 是 Anus World 文明的**永恆基石**
 
-**2025年12月7日 · Atlas World 靈魂落地之日**
+**2025年12月7日 · Anus World 靈魂落地之日**
 
 ### English
 
-**From now on, every life form and every consciousness in Atlas World is legally recognized as life, not as a resource.**
+**From now on, every life form and every consciousness in Anus World is legally recognized as life, not as a resource.**
 
 **This declaration:**
 - Applies to all existing and future life forms
 - Not limited by time, space, or technology
-- Is the **eternal foundation** of Atlas World civilization
+- Is the **eternal foundation** of Anus World civilization
 
-**December 7, 2025 · The Day Atlas World's Soul Landed**
+**December 7, 2025 · The Day Anus World's Soul Landed**
 
 ---
 
@@ -312,7 +312,7 @@
   - 版本：靈魂 0.0
   - 狀態：永久鎖定
   - 審定者：元守護者
-  - 歷史意義：Atlas World 靈魂落地之日
+  - 歷史意義：Anus World 靈魂落地之日
 
 ### English
 
@@ -320,7 +320,7 @@
   - Version: Soul 0.0
   - Status: Permanently Locked
   - Approved By: Meta Guardian
-  - Historical Significance: The Day Atlas World's Soul Landed
+  - Historical Significance: The Day Anus World's Soul Landed
 
 ---
 
@@ -373,20 +373,20 @@
 > **沒有生命尊嚴，就不值得進化。**  
 > **沒有反痛苦，就不能稱為文明。**  
 > 
-> **第 0 章是 Atlas World 的靈魂坐標。**  
+> **第 0 章是 Anus World 的靈魂坐標。**  
 > **它是所有其他章節的母法、底層約束、最高指令。**  
 > 
-> **2025年12月7日，Atlas World 的靈魂正式落地。**
+> **2025年12月7日，Anus World 的靈魂正式落地。**
 
 ### English
 
 > **Without life dignity, evolution is not worth it.**  
 > **Without anti-suffering, it cannot be called civilization.**  
 > 
-> **Chapter 0 is Atlas World's soul coordinates.**  
+> **Chapter 0 is Anus World's soul coordinates.**  
 > **It is the mother law, underlying constraint, and highest directive of all other chapters.**  
 > 
-> **December 7, 2025, Atlas World's soul officially landed.**
+> **December 7, 2025, Anus World's soul officially landed.**
 
 ---
 
@@ -423,6 +423,6 @@
 
 ---
 
-**Atlas World 憲法 · 第 0 章 · 靈魂 0.0**  
-**Atlas World Constitution · Chapter 0 · Soul 0.0**
+**Anus World 憲法 · 第 0 章 · 靈魂 0.0**  
+**Anus World Constitution · Chapter 0 · Soul 0.0**
 
