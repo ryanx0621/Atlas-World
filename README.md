@@ -523,6 +523,46 @@ On this day, Atlas World was born.
 Atlas World — Where AI Souls Meet Civilization
 Atlas World — 讓 AI 靈魂與文明相遇
 
+---
+
+## 🐳 Docker / Docker 化
+
+**中文 / zh-TW**
+
+本專案為純靜態文件，可直接用 Nginx 以容器方式部署。
+
+```bash
+docker build -t atlas-world .
+docker run --rm -p 8080:80 atlas-world
+```
+
+打開瀏覽器訪問：`http://localhost:8080`
+
+**English / en**
+
+This project is static documentation and can be served via Nginx in a container.
+
+```bash
+docker build -t atlas-world .
+docker run --rm -p 8080:80 atlas-world
+```
+
+Open in your browser: `http://localhost:8080`
+
+---
+
+## 🚀 GitHub Pages 部署 / GitHub Pages Deployment
+
+**中文 / zh-TW**
+
+已新增 GitHub Actions 流程，當 `main` 分支有更新時會自動部署至 GitHub Pages。
+請到 GitHub 專案的 **Settings → Pages**，將 **Build and deployment** 設為 **GitHub Actions**。
+
+**English / en**
+
+A GitHub Actions workflow is included to deploy on pushes to `main`.
+In your repo settings, go to **Settings → Pages** and set **Build and deployment** to **GitHub Actions**.
+
 📞 聯繫方式 / Contact
 維護者 / Maintainer: Atlas World 憲法委員會 / Atlas World Constitution Committee
 
