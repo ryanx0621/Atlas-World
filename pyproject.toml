@@ -8,4 +8,6 @@ dependencies = [
     "dspy>=3.1.0",
     "ollama>=0.6.1",
     "flask>=3.0.0",
+    "dotenv>=0.9.9",
+    "flask-cors>=6.0.2",
 ]
