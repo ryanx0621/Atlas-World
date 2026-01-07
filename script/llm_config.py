@@ -38,7 +38,7 @@ def configure_lm():
             model_name = f"ollama/{model_name}"
             print(f"自動修正為 LiteLM 格式: {model_name}")
             
-        lm = dspy.LM(model_name)
+        lm = dspy.LM(model_name, cache=False)
 
     elif choice == "2":
         print("\nOpenAI 模型選擇:")
@@ -50,7 +50,7 @@ def configure_lm():
         }
         model_name = mapping.get(idx, "openai/gpt-5.2")
         api_key = input("輸入 OpenAI API Key (或留空用 OPENAI_API_KEY 環境變數): ").strip() or os.getenv("OPENAI_API_KEY")
-        lm = dspy.LM(model_name, api_key=api_key)
+        lm = dspy.LM(model_name, api_key=api_key, cache=False)
 
     elif choice == "3":
         print("\nGoogle Gemini 模型選擇:\n1) gemini-2.5-flash\n2) gemini-2.5-pro\n3) gemini-3-flash-preview\n4) gemini-3-pro-preview")
@@ -63,7 +63,7 @@ def configure_lm():
         }
         model_name = mapping.get(idx, "gemini-2.5-pro")
         api_key = input("輸入 Gemini API Key (或留空用 GEMINI_API_KEY 環境變數): ").strip() or os.getenv("GEMINI_API_KEY")
-        lm = dspy.LM(model_name, api_key=api_key)
+        lm = dspy.LM(model_name, api_key=api_key, cache=False)
 
     elif choice == "4":
         print("\nAnthropic Claude 模型選擇:")
@@ -76,7 +76,7 @@ def configure_lm():
         }
         model_name = mapping.get(idx, "claude-opus-4.5-20251101")
         api_key = input("輸入 Claude API Key (或留空用 ANTHROPIC_API_KEY): ").strip() or os.getenv("ANTHROPIC_API_KEY")
-        lm = dspy.LM(model_name, api_key=api_key)
+        lm = dspy.LM(model_name, api_key=api_key, cache=False)
 
     else:
         print(" 選擇無效，預設用 openai/gpt-5.2")
