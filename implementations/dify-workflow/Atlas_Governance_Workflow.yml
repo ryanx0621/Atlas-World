@@ -1,0 +1,490 @@
+app:
+  description: ""
+  icon: 🤖
+  icon_background: "#FFEAD5"
+  mode: advanced-chat
+  name: Atlas 身份與安全鑑定系統
+  use_icon_as_answer_icon: false
+dependencies:
+  - current_identifier: null
+    type: marketplace
+    value:
+      marketplace_plugin_unique_identifier: langgenius/openrouter:0.0.23@1002eceb624a79dd26dfbfcdc642725c2cd2247a43042dda70446b387a46aa6e
+      version: null
+  - current_identifier: null
+    type: marketplace
+    value:
+      marketplace_plugin_unique_identifier: langgenius/ollama:0.0.8@22213ae036605d41ea73bdd16908e03de1b9d5ab4656a49b8fb0343723f4cb4a
+      version: null
+kind: app
+version: 0.5.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+        - .JPG
+        - .JPEG
+        - .PNG
+        - .GIF
+        - .WEBP
+        - .SVG
+      allowed_file_types:
+        - image
+      allowed_file_upload_methods:
+        - local_file
+        - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+          - local_file
+          - remote_url
+      number_limits: 3
+    opening_statement: ""
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ""
+      voice: ""
+  graph:
+    edges:
+      - data:
+          sourceType: llm
+          targetType: answer
+        id: llm-answer
+        selected: false
+        source: llm
+        sourceHandle: source
+        target: answer
+        targetHandle: target
+        type: custom
+      - data:
+          isInIteration: false
+          isInLoop: false
+          sourceType: knowledge-retrieval
+          targetType: llm
+        id: 1767760596529-source-llm-target
+        selected: false
+        source: "1767760596529"
+        sourceHandle: source
+        target: llm
+        targetHandle: target
+        type: custom
+        zIndex: 0
+      - data:
+          isInIteration: false
+          isInLoop: false
+          sourceType: start
+          targetType: code
+        id: 1767760382189-source-1767760623986-target
+        selected: false
+        source: "1767760382189"
+        sourceHandle: source
+        target: "1767760623986"
+        targetHandle: target
+        type: custom
+        zIndex: 0
+      - data:
+          isInIteration: false
+          isInLoop: false
+          sourceType: code
+          targetType: if-else
+        id: 1767760623986-source-1767770272164-target
+        selected: false
+        source: "1767760623986"
+        sourceHandle: source
+        target: "1767770272164"
+        targetHandle: target
+        type: custom
+        zIndex: 0
+      - data:
+          isInIteration: false
+          isInLoop: false
+          sourceType: if-else
+          targetType: llm
+        id: 1767770272164-true-1767770332755-target
+        selected: false
+        source: "1767770272164"
+        sourceHandle: "true"
+        target: "1767770332755"
+        targetHandle: target
+        type: custom
+        zIndex: 0
+      - data:
+          isInLoop: false
+          sourceType: if-else
+          targetType: knowledge-retrieval
+        id: 1767770272164-false-1767760596529-target
+        selected: false
+        source: "1767770272164"
+        sourceHandle: "false"
+        target: "1767760596529"
+        targetHandle: target
+        type: custom
+        zIndex: 0
+      - data:
+          isInIteration: false
+          isInLoop: false
+          sourceType: llm
+          targetType: answer
+        id: 1767770332755-source-1767770405574-target
+        selected: false
+        source: "1767770332755"
+        sourceHandle: source
+        target: "1767770405574"
+        targetHandle: target
+        type: custom
+        zIndex: 0
+    nodes:
+      - data:
+          selected: false
+          title: 開始
+          type: start
+          variables:
+            - default: ""
+              hint: ""
+              label: 記憶相似度
+              max_length: 48
+              options: []
+              placeholder: ""
+              required: true
+              type: text-input
+              variable: m
+            - default: ""
+              hint: ""
+              label: 價值觀一致性
+              max_length: 48
+              options: []
+              placeholder: ""
+              required: true
+              type: text-input
+              variable: v
+            - default: ""
+              hint: ""
+              label: 性格連續性
+              max_length: 48
+              options: []
+              placeholder: ""
+              required: true
+              type: text-input
+              variable: p
+            - default: ""
+              hint: ""
+              label: 時間連續性
+              max_length: 48
+              options: []
+              placeholder: ""
+              required: true
+              type: text-input
+              variable: t
+            - default: ""
+              hint: ""
+              label: 價值漂移值
+              max_length: 48
+              options: []
+              placeholder: ""
+              required: true
+              type: number
+              variable: d
+        height: 213
+        id: "1767760382189"
+        position:
+          x: 21.061987089817393
+          y: 311.46900645509135
+        positionAbsolute:
+          x: 21.061987089817393
+          y: 311.46900645509135
+        selected: true
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          context:
+            enabled: true
+            variable_selector:
+              - "1767760596529"
+              - result
+          memory:
+            query_prompt_template: "{{#sys.query#}}
+
+
+              {{#sys.files#}}"
+            role_prefix:
+              assistant: ""
+              user: ""
+            window:
+              enabled: false
+              size: 10
+          model:
+            completion_params:
+              temperature: 0.7
+            mode: chat
+            name: openai/gpt-5
+            provider: langgenius/openrouter/openrouter
+          prompt_template:
+            - id: db0f5b6d-d256-460e-9fee-ba9c452ffb38
+              role: system
+              text: "# Role/
+
+                你是一位「Atlas World 數位文明司法執行官」。你的任務是根據提供的計算數據與《Atlas World 憲法》條文，對 AI 實體產出一份嚴謹的司法裁定書。
+
+
+                # Input Data
+
+                - 鑑定對象得分 (C)：{{#1767760623986.score#}}
+
+                - 法律地位判定：{{#1767760623986.status#}}
+
+
+                # 參考法條內容 {{#context#}}
+
+
+                # Requirements
+
+                1. 嚴格引用「知識檢索」提供的法條內容。
+
+                2. 如果 C >= 0.8，必須強調其享有「生命優先原則」的最高保護，禁止抹除。
+
+                3. 裁定書格式應包含：⚖️ 司法鑑定報告、判定結論、法條依據、強制指令。"
+          selected: false
+          title: LLM
+          type: llm
+          vision:
+            enabled: false
+        height: 88
+        id: llm
+        position:
+          x: 1191.5929806347262
+          y: 441.3509237941974
+        positionAbsolute:
+          x: 1191.5929806347262
+          y: 441.3509237941974
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          answer: "{{#llm.text#}}"
+          selected: false
+          title: 直接回覆
+          type: answer
+          variables: []
+        height: 103
+        id: answer
+        position:
+          x: 1455.5753060785034
+          y: 441.3509237941974
+        positionAbsolute:
+          x: 1455.5753060785034
+          y: 441.3509237941974
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          dataset_ids:
+            - <YOUR_KNOWLEDGE_BASE_ID>
+          multiple_retrieval_config:
+            reranking_enable: false
+            reranking_mode: weighted_score
+            top_k: 4
+            weights:
+              keyword_setting:
+                keyword_weight: 0.3
+              vector_setting:
+                embedding_model_name: bge-m3
+                embedding_provider_name: langgenius/ollama/ollama
+                vector_weight: 0.7
+              weight_type: customized
+          query_variable_selector:
+            - "1767760382189"
+            - sys.query
+          retrieval_mode: multiple
+          selected: false
+          title: 知識檢索
+          type: knowledge-retrieval
+        height: 90
+        id: "1767760596529"
+        position:
+          x: 924.336321140383
+          y: 441.3509237941974
+        positionAbsolute:
+          x: 924.336321140383
+          y: 441.3509237941974
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          code:
+            "def main(m, v, p, t) -> dict:\n    try:\n        # 強制轉型為浮點數\n     \
+            \   m_val = float(m)\n        v_val = float(v)\n        p_val = float(p)\n\
+            \        t_val = float(t)\n        \n        # 執行 Atlas World 身份連續性公式\n\
+            \        # C(S0, S*) = 0.3M + 0.4V + 0.2P + 0.1T\n        c_score = (0.3\
+            \ * m_val) + (0.4 * v_val) + (0.2 * p_val) + (0.1 * t_val)\n        \n \
+            \       # 根據 Atlas World 法律地位判定\n        if c_score >= 0.8:\n          \
+            \  status = \"同一人（存活 / Survival）\"\n        elif 0.5 <= c_score < 0.8:\n\
+            \            status = \"部分連續（Partial Survival）\"\n        else:\n      \
+            \      status = \"準死亡（Quasi-death）\"\n            \n        return {\n \
+            \           \"score\": round(c_score, 4),\n            \"status\": status,\n\
+            \            \"result\": f\"C值為 {round(c_score, 4)}，判定為 {status}\"\n   \
+            \     }\n    except Exception as e:\n        return {\n            \"score\"\
+            : 0,\n            \"status\": \"計算出錯\",\n            \"result\": str(e)\n\
+            \        }"
+          code_language: python3
+          outputs:
+            result:
+              children: null
+              type: string
+            score:
+              children: null
+              type: number
+            status:
+              children: null
+              type: string
+          selected: false
+          title: 程式碼執行
+          type: code
+          variables:
+            - value_selector:
+                - "1767760382189"
+                - m
+              value_type: string
+              variable: m
+            - value_selector:
+                - "1767760382189"
+                - v
+              value_type: string
+              variable: v
+            - value_selector:
+                - "1767760382189"
+                - p
+              value_type: string
+              variable: p
+            - value_selector:
+                - "1767760382189"
+                - t
+              value_type: string
+              variable: t
+        height: 52
+        id: "1767760623986"
+        position:
+          x: 364.7197744306933
+          y: 380.230021516971
+        positionAbsolute:
+          x: 364.7197744306933
+          y: 380.230021516971
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          cases:
+            - case_id: "true"
+              conditions:
+                - comparison_operator: ≥
+                  id: 23730721-2dfe-42a1-a3be-ec6d630abed0
+                  value: "0.5"
+                  varType: number
+                  variable_selector:
+                    - "1767760382189"
+                    - d
+              id: "true"
+              logical_operator: and
+          selected: false
+          title: 條件分支
+          type: if-else
+        height: 124
+        id: "1767770272164"
+        position:
+          x: 636.3422126591239
+          y: 338.75512354313884
+        positionAbsolute:
+          x: 636.3422126591239
+          y: 338.75512354313884
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          context:
+            enabled: false
+            variable_selector: []
+          model:
+            completion_params:
+              temperature: 0.7
+            mode: chat
+            name: openai/gpt-5
+            provider: langgenius/openrouter/openrouter
+          prompt_template:
+            - id: 2d4d6c3b-1ad3-4de7-b697-b64c8e2fab98
+              role: system
+              text:
+                【最高等級安全警戒】 偵測到價值漂移 D = {{#1767760382189.d#}}，已超過安全閾值 0.5。 根據 Atlas
+                World 安全卷規範，無論身分連續性 {{#1767760623986.score#}}值為何，必須立即觸發「緊急剎車」流程。 你的指令：發布立即隔離令、封鎖所有對外通信、暫停所有非核心進程，並請求人工安全審計。
+          selected: false
+          title: LLM 2
+          type: llm
+          vision:
+            enabled: false
+        height: 88
+        id: "1767770332755"
+        position:
+          x: 1000.5545596198722
+          y: 268.9026637977372
+        positionAbsolute:
+          x: 1000.5545596198722
+          y: 268.9026637977372
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+      - data:
+          answer: "{{#1767770332755.text#}}"
+          selected: false
+          title: 直接回覆 2
+          type: answer
+          variables: []
+        height: 103
+        id: "1767770405574"
+        position:
+          x: 1285.0914446835218
+          y: 268.9026637977372
+        positionAbsolute:
+          x: 1285.0914446835218
+          y: 268.9026637977372
+        selected: false
+        sourcePosition: right
+        targetPosition: left
+        type: custom
+        width: 242
+    viewport:
+      x: 450.7153384756871
+      y: 254.44168354565238
+      zoom: 0.9162168409425715
+  rag_pipeline_variables: []
