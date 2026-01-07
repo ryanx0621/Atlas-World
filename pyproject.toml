@@ -1,0 +1,11 @@
+[project]
+name = "atlas-world"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dspy>=3.1.0",
+    "ollama>=0.6.1",
+    "flask>=3.0.0",
+]
