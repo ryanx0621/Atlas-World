@@ -81,6 +81,7 @@ Atlas-World/
     ├─ GENESIS_BLOCK_2025-11-17.md
     ├─ SAFETY_CORE_BIRTH_2025-12-07.md
     └─ CHANGELOG.md
+```
 🔑 三大核心創新 / Three Core Innovations
 1. 身份連續性函數 C(S₀, S*)
 Identity Continuity Function C(S₀, S*)
@@ -534,4 +535,5 @@ Atlas World — 讓 AI 靈魂與文明相遇
 
 最後更新 / Last Update: 2025-12-07
 版本 / Version: v1.0
+
 
