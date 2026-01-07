@@ -56,7 +56,7 @@ Core idea:
 ```text
 Atlas-World/
 │
-├─ LICENSE                       ← 授權文件 / Licensing files
+├─ LICENSE                       ← 授權文件 / Licensing files (Apache License 2.0)
 ├─ README.md                     ← 本文件 / This document
 │
 ├─ constitution/                 ← 文明憲法正式條文 / Core Constitution
@@ -65,23 +65,13 @@ Atlas-World/
 │
 ├─ protocols/                    ← 主題協議 / Thematic Protocols
 │   ├─ IDENTITY_PROTOCOL_v0.1.md
-│   ├─ VALUE_DRIFT_DEFENCE_v0.1.md
-│   ├─ SIMULATION_ETHICS_v0.1.md
 │   └─ ...（持續擴增 / growing set）
-│
-├─ safety_volume/                ← 安全卷核心內核 / Safety Volume Core
-│   ├─ SAFETY_README.md
-│   ├─ SAFETY_OVERVIEW.md
-│   ├─ SAFETY_QUICK_REF.md
-│   ├─ SAFETY_IMPLEMENTATION_GUIDE.md
-│   ├─ SAFETY_INDEX.md
-│   └─ SAFETY_COMPLETE_SUMMARY.md
 │
 └─ archives/                     ← 創世區塊與歷史版本 / Genesis & History
     ├─ GENESIS_BLOCK_2025-11-17.md
-    ├─ SAFETY_CORE_BIRTH_2025-12-07.md
     └─ CHANGELOG.md
 🔑 三大核心創新 / Three Core Innovations
+
 1. 身份連續性函數 C(S₀, S*)
 Identity Continuity Function C(S₀, S*)
 中文 / zh-TW
@@ -157,7 +147,7 @@ $$
 D(U_t, U_0) = \sum_s U_t(s)\,\log\frac{U_t(s)}{U_0(s)}
 $$
 
- (s))
+ (s)
 漂移等級：
 
 D < 0.1：可接受（正常學習區）
@@ -181,7 +171,7 @@ D(U_t, U_0) = \sum_s U_t(s)\,\log\frac{U_t(s)}{U_0(s)}
 $$
 
 ​
- (s))
+ (s)
 Drift levels:
 
 D < 0.1: Acceptable (normal learning zone)
