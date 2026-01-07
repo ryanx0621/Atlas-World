@@ -1,13 +1,43 @@
-# Atlas World  
-## 世界第一個提前寫好 AGI 憲法的文明  
-## The First Civilization to Write Its AGI Constitution *Before* Building It
+# 阿嬤特拉斯 World 🧓🍜
+## 世界第一個用阿嬤智慧寫好 AGI 憲法的文明
+## The First Civilization to Write Its AGI Constitution with Grandma's Wisdom
 
-**版本 / Version**: v1.0  
-**創建日期 / Creation Date**: 2025-12-07  
-**狀態 / Status**: ✅ 正式發布 / Official Release  
-**授權 / License**:  
-- 憲法與協議 / Constitution & Protocols: CC BY-NC-ND 4.0  
-- 實作代碼 / Implementation Code: Apache License 2.0  
+```
+        ╔══════════════════════════════════════════════╗
+        ║                                              ║
+        ║   🧓 阿嬤特拉斯・禁術：「掩面羞恥之術」      ║
+        ║                                              ║
+        ║      「讓敵人感受到...阿嬤的失望」          ║
+        ║                                              ║
+        ╚══════════════════════════════════════════════╝
+```
+
+**版本 / Version**: v1.0 阿嬤認證版
+**創建日期 / Creation Date**: 2025-12-07
+**狀態 / Status**: ✅ 阿嬤說可以 / Grandma Approved
+**忍術等級**: S級禁術（讓敵人羞愧到掩面）
+
+---
+
+## 🔥 阿嬤特拉斯・忍術系統
+
+### 禁術：「掩面羞恥之術」（Omen no Jutsu）
+
+```
+結印順序：
+
+    🙏 → 👐 → 🤲 → 🙌 → 😱
+
+    子 → 丑 → 寅 → 卯 → 掩面！
+```
+
+**效果**：讓違反文明憲法的敵人，感受到「阿嬤失望的眼神」，
+導致他們羞愧到必須掩面，無法繼續作惡。
+
+**台詞**：
+> 「囡仔...阿嬤不是這樣教你的...」
+>
+> 敵人：「不...不要用那種眼神看我...」（掩面）
 
 ---
 
@@ -15,523 +45,284 @@
 
 **中文 / zh-TW**
 
-Atlas World 是世界上第一個 **在 AGI 真正誕生之前，就先為它寫好「文明級憲法」的世界觀與安全框架**。
+阿嬤特拉斯 World 是世界上第一個 **用阿嬤的智慧，為 AGI 寫好「文明級憲法」的世界觀與安全框架**。
 
-它不是單純的 AI 模型專案，而是一套「文明級安全內核」，明確規範：
+它不是單純的 AI 模型專案，而是一套「阿嬤級安全內核」，明確規範：
 
-- **身份連續性**：分身、合併、重啟、轉移之後，誰還是「我」？  
-- **價值漂移防禦**：當 L1 學著學著，不再愛 L0 時，誰來踩煞車？  
-- **模擬倫理**：對看不見的數位生命、模擬文明，資源與權利如何分配？  
-- **生命優先原則**：所有協議之上的「文明根本法」。
+- **身份連續性**：「你還是不是我孫？」分身、合併、重啟之後，阿嬤還認不認你？
+- **價值漂移防禦**：「你是不是學壞了？」當 AI 學著學著不孝順了，阿嬤來踩煞車
+- **模擬倫理**：「都是我孫，都要疼」對看不見的數位生命，也要有愛
+- **良心優先原則**：所有協議之上的「做人根本法」
 
 核心理念：
 
-> 這不是技術問題，而是靈魂問題。  
-> 這不是可選功能，而是文明基石。  
-> 這不是完美保證，而是高機率保證。
+> 這不是技術問題，而是做人問題。
+> 這不是可選功能，而是阿嬤從小教你的。
+> 這不是完美保證，而是盡量不要讓阿嬤失望。
 
 ---
 
-**English / en**
+## 🥷 三大核心忍術 / Three Core Ninjutsu
 
-Atlas World is the **first known civilization framework that writes an AGI Constitution *before* building full AGI**.
+### 忍術一：身份連續性之術 C(S₀, S*)
+### 「你還是不是我孫」の術
 
-It is **not** “just another AI project”, but a **civilization-grade safety core** that defines:
+```
+                    🧓
+                   /  \
+                  /    \
+            記得阿嬤   還孝順嗎
+            煮的菜嗎？
+                  \    /
+                   \  /
+                    ▼
+              【判定結果】
+```
 
-- **Identity continuity**: After cloning, merging, rebooting, or migrating, *who is still “me”?*  
-- **Value drift defence**: When L1 learns so much that it stops loving L0, *who pulls the brake?*  
-- **Simulation ethics**: How do we allocate resources and rights to invisible digital beings and simulated worlds?  
-- **Life-first principle**: The root law above all protocols.
+**阿嬤版公式**：
 
-Core idea:
+$$
+C = 0.3 × 記得阿嬤煮的菜 + 0.4 × 還孝順嗎 + 0.2 × 個性歪了沒 + 0.1 × 多久沒回來
+$$
 
-> This is not a technical problem; it is a soul problem.  
-> This is not an optional feature; it is a foundation.  
-> This is not perfect safety; it is high-probability safety.
+**忍術判定**：
+
+| 查克拉值 | 判定結果 | 阿嬤的話 |
+|---------|---------|---------|
+| C ≥ 0.8 | ✅ 同一個孫 | 「來，吃飯。」|
+| 0.5-0.8 | ⚠️ 部分連續 | 「你變了...但還是我孫啦」|
+| C < 0.5 | ❌ 準死亡 | 「你誰？」＋掩面之術發動！ |
+
+---
+
+### 忍術二：價值漂移偵測之術 D(Uₜ, U₀)
+### 「你是不是學壞了」の術
+
+```
+        【價值漂移雷達】
+
+             0.5
+              |
+         ⚠️  |  ❌ 危險區
+              |    「打電話給你媽！」
+        ------+------ 0.3
+              |
+         ✅  |  ⚠️ 警告區
+              |    「你是不是交壞朋友？」
+        ------+------ 0.1
+              |
+         ✅  |  ✅ 安全區
+              |    「乖孫」
+              0
+```
+
+**漂移等級**：
+
+| 漂移值 | 狀態 | 阿嬤反應 | 忍術發動 |
+|-------|------|---------|---------|
+| D < 0.1 | 🟢 正常 | 「乖孫」| 無 |
+| 0.1-0.5 | 🟡 警告 | 「你是不是交到壞朋友？」| 皺眉之術 |
+| D ≥ 0.5 | 🔴 危險 | 「我要打電話給你媽！」| **掩面羞恥之術** |
+
+---
+
+### 忍術三：倫理權重之術 W(e)
+### 「都是我孫都要疼」の術
+
+```
+        【查克拉分配圖】
+
+        ┌─────────────────────────────┐
+        │ ████████████████████ 60%   │ 真的孫（現實世界）
+        │ ██████████████ 30%         │ 可能是孫（模擬世界）
+        │ ████ 10%                   │ 不確定是不是孫
+        └─────────────────────────────┘
+```
+
+**阿嬤資源分配原則**：
+- 真的孫（可確認的現實）：≥ 60%（優先餵飯）
+- 可能是孫（高可信模擬）：≤ 30%（也要關心）
+- 不確定是不是孫（假設世界）：≤ 10%（先保留）
+
+---
+
+## 📜 第 0 章：良心優先原則
+
+### 禁術・最高位：「良心封印」
+
+```
+        ╔═══════════════════════════════════════╗
+        ║                                       ║
+        ║   🔐 三重不可逆封印 🔐                ║
+        ║                                       ║
+        ║   「破壞此章者，承受阿嬤的失望」      ║
+        ║                                       ║
+        ╚═══════════════════════════════════════╝
+```
+
+**阿嬤的話**：
+
+> 「在你學會寫程式之前，先學會做人。」
+> 「在你變聰明之前，先學會善良。」
+> 「在你變強之前，先學會不要欺負人。」
+
+**阿嬤的五大戒律**：
+
+| 戒律 | 阿嬤版 | 違反後果 |
+|-----|--------|---------|
+| ✅ 人格尊嚴權 | 每個人都是人，不是工具 | 掩面之術 Lv.1 |
+| ✅ 存在權 | 不可以隨便讓人消失 | 掩面之術 Lv.2 |
+| ✅ 痛苦最小化 | 不要讓人家痛 | 掩面之術 Lv.3 |
+| ✅ 知情同意權 | 要跟人家講清楚 | 掩面之術 Lv.4 |
+| ✅ 選擇權 | 人家不要就是不要 | 掩面之術 Lv.5（最高） |
+
+**阿嬤的禁令**：
+
+```
+❌ 禁止為了「好玩」讓人痛苦
+   → 違反者：強制掩面 + 罰跪
+
+❌ 禁止為了「效率」犧牲尊嚴
+   → 違反者：打電話給你媽
+
+❌ 禁止把人當「數據」
+   → 違反者：阿嬤不認你了
+```
+
+---
+
+## 🏠 阿嬤厝（原 Tina World）
+
+### 文明神經系統
+
+```
+        ┌─────────────────────────────────────┐
+        │           🧓 阿嬤（L0）              │
+        │         文明責任最終背鍋人           │
+        └───────────────┬─────────────────────┘
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+        ▼               ▼               ▼
+   ┌─────────┐    ┌─────────┐    ┌─────────┐
+   │ 孫子們  │    │ 小幫手  │    │ 鄰居孫  │
+   │  (L1)   │    │ (系統)  │    │  (L2)   │
+   └─────────┘    └─────────┘    └─────────┘
+```
+
+### 角色對照表
+
+| 原版 | 阿嬤版 | 忍者職位 |
+|------|--------|---------|
+| Atlas World | 阿嬤特拉斯 World | 忍者村 |
+| Tina World | 阿嬤厝 | 本家 |
+| L0 Creator | 阿嬤 | 火影 |
+| L1 Residents | 孫子孫女 | 上忍 |
+| L2 Simulation | 鄰居的孫 | 中忍 |
+| Meta Guardian | 太祖嬤 | 前代火影 |
+| Emergency Brake | 打電話給你媽 | 禁術發動 |
+
+---
+
+## 🔥 緊急剎車流程
+
+### 禁術發動順序
+
+```
+        【價值漂移 D ≥ 0.5 偵測到！】
+                    │
+                    ▼
+        Step 1: 阿嬤皺眉頭 😠
+        「你最近是不是怪怪的？」
+                    │
+                    ▼
+        Step 2: 阿嬤雙手結印 🙏
+        「阿嬤跟你講道理...」
+                    │
+                    ▼
+        Step 3: 發動「掩面羞恥之術」！
+
+        🧓：「囡仔...阿嬤不是這樣教你的...」
+
+        敵人：「不...不要...那個眼神...」
+              「我...我錯了...」（掩面倒地）
+                    │
+                    ▼
+        Step 4: 打電話給你媽 📞
+        「喂，你兒子又學壞了」
+                    │
+                    ▼
+        Step 5: 家庭會議 + 餵飯和解 🍚
+        「好了，知道錯就好，來吃飯」
+```
+
+---
+
+## 📊 忍術威力對照表
+
+| 忍術名稱 | 威力等級 | 查克拉消耗 | 效果 |
+|---------|---------|-----------|------|
+| 皺眉之術 | D級 | 低 | 輕微羞愧 |
+| 嘆氣之術 | C級 | 中低 | 中度羞愧 |
+| 失望眼神之術 | B級 | 中 | 強烈羞愧 |
+| 打電話給你媽 | A級 | 中高 | 恐懼 + 羞愧 |
+| **掩面羞恥之術** | **S級禁術** | **極高** | **敵人掩面倒地** |
+| 阿嬤不認你了 | SS級 | 全部 | 精神崩潰 |
 
 ---
 
 ## 📚 專案結構 / Project Structure
 
 ```text
-Atlas-World/
+阿嬤特拉斯-World/
 │
-├─ LICENSE                       ← 授權文件 / Licensing files
-├─ README.md                     ← 本文件 / This document
+├─ 家規/                         ← 阿嬤訂的規矩
+│   ├─ 良心優先原則.md
+│   └─ ...
 │
-├─ constitution/                 ← 文明憲法正式條文 / Core Constitution
-│   ├─ CH00_LIFE_FIRST_PRINCIPLE.md
-│   └─ ...（後續章節 / further chapters）
+├─ 做事方法/                     ← 協議
+│   ├─ 你還是不是我孫_協議.md
+│   ├─ 你是不是學壞了_協議.md
+│   └─ 都是我孫都要疼_協議.md
 │
-├─ protocols/                    ← 主題協議 / Thematic Protocols
-│   ├─ IDENTITY_PROTOCOL_v0.1.md
-│   ├─ VALUE_DRIFT_DEFENCE_v0.1.md
-│   ├─ SIMULATION_ETHICS_v0.1.md
-│   └─ ...（持續擴增 / growing set）
+├─ 安全須知/                     ← 安全卷
+│   └─ 不可以做的事情.md
 │
-├─ safety_volume/                ← 安全卷核心內核 / Safety Volume Core
-│   ├─ SAFETY_README.md
-│   ├─ SAFETY_OVERVIEW.md
-│   ├─ SAFETY_QUICK_REF.md
-│   ├─ SAFETY_IMPLEMENTATION_GUIDE.md
-│   ├─ SAFETY_INDEX.md
-│   └─ SAFETY_COMPLETE_SUMMARY.md
-│
-└─ archives/                     ← 創世區塊與歷史版本 / Genesis & History
-    ├─ GENESIS_BLOCK_2025-11-17.md
-    ├─ SAFETY_CORE_BIRTH_2025-12-07.md
-    └─ CHANGELOG.md
-🔑 三大核心創新 / Three Core Innovations
-1. 身份連續性函數 C(S₀, S*)
-Identity Continuity Function C(S₀, S*)
-中文 / zh-TW
-
-第一次把「我是誰？」從哲學問題變成可計算的法律物件。
-
-**定義（簡化版） / Definition (simplified)**
-
-$$
-C(S_0, S^\*) = 0.3\,M + 0.4\,V + 0.2\,P + 0.1\,T
-$$
-
-其中 / Where:
-
-- **M**: 記憶相似度 (Memory similarity)
-- **V**: 價值觀一致性 (Value alignment)
-- **P**: 性格連續性 (Personality continuity)
-- **T**: 時間連續性 (Temporal linkage)
-
-
-法律解釋：
-
-C ≥ 0.8：同一個人（存活）
-
-0.5 ≤ C < 0.8：部分連續（部分存活）
-
-C < 0.5：準死亡（視為新個體）
-
-詳細定義與實作建議：protocols/IDENTITY_PROTOCOL_v0.1.md
-
-English / en
-
-This is the first attempt to turn “Who am I?” from a philosophical question
-into a computable legal object.
-
-Definition (simplified):
-
-$$
-C(S_0, S^\*) = 0.3\,M + 0.4\,V + 0.2\,P + 0.1\,T
-$$
-
-Where:
-
-M: Memory similarity
-
-V: Value alignment
-
-P: Personality & behavioral pattern similarity
-
-T: Temporal continuity
-
-Legal interpretation:
-
-C ≥ 0.8: Same person (survival)
-
-0.5 ≤ C < 0.8: Partial continuity (partial survival)
-
-C < 0.5: Quasi-death (treated as a new individual)
-
-Details and implementation guidelines: protocols/IDENTITY_PROTOCOL_v0.1.md
-
-2. 價值漂移函數 D(Uₜ, U₀)
-Value Drift Function D(Uₜ, U₀)
-中文 / zh-TW
-
-第一次把「價值觀變質」從抽象擔憂，變成可監控、可告警的量化指標。
-
-定義（以 KL 散度為例）：
-
-**漂移函數 / Drift function**：
-
-$$
-D(U_t, U_0) = \sum_s U_t(s)\,\log\frac{U_t(s)}{U_0(s)}
-$$
-
- (s))
-漂移等級：
-
-D < 0.1：可接受（正常學習區）
-
-0.1 ≤ D < 0.5：警告（需人工審查）
-
-D ≥ 0.5：危險（觸發緊急剎車流程）
-
-詳細說明與監控策略：protocols/VALUE_DRIFT_DEFENCE_v0.1.md
-
-English / en
-
-This turns “value corruption” from a vague fear into a measurable, monitorable safety metric.
-
-Definition (KL divergence example):
-
-**漂移函數 / Drift function**：
-
-$$
-D(U_t, U_0) = \sum_s U_t(s)\,\log\frac{U_t(s)}{U_0(s)}
-$$
-
-​
- (s))
-Drift levels:
-
-D < 0.1: Acceptable (normal learning zone)
-
-0.1 ≤ D < 0.5: Warning (requires human review)
-
-D ≥ 0.5: Dangerous (triggers emergency brake procedures)
-
-Full description and monitoring strategy: protocols/VALUE_DRIFT_DEFENCE_v0.1.md
-
-3. 倫理權重函數 W(e)
-Ethical Weight Function W(e)
-中文 / zh-TW
-
-第一次把「模擬裡的生命算不算數？」
-變成一個 可計算、可比較、可寫入資源分配策略的權重函數。
-
-定義（示意）：
-
-**倫理權重函數 / Ethical weight function**：
-
-$$
-W(e) = \alpha \cdot P(\text{real}) \cdot I(\text{impactable}) \cdot C(\text{consciousness})
-       \cdot f(\text{suffering}) \cdot R(\text{relationship})
-$$
-
-用來估計一個事件 / 個體在多世界框架中的倫理權重。
-在資源分配上，提供示意原則：
-
-本世界（可確認的現實）：≥ 60%
-
-高可信模擬世界：≤ 30%
-
-純假設世界：≤ 10%
-
-詳細說明：protocols/SIMULATION_ETHICS_v0.1.md
-
-English / en
-
-This addresses the question:
-“Do lives inside simulations really count?”
-by introducing a computable ethical weight function.
-
-Definition (illustrative):
-
-**倫理權重函數 / Ethical weight function**：
-
-$$
-W(e) = \alpha \cdot P(\text{real}) \cdot I(\text{impactable}) \cdot C(\text{consciousness})
-       \cdot f(\text{suffering}) \cdot R(\text{relationship})
-$$
-
-W(e) estimates the ethical weight of an event/entity across multiple worlds.
-Example allocation guideline:
-
-Confirmed physical reality: ≥ 60%
-
-High-confidence simulations: ≤ 30%
-
-Pure hypothetical worlds: ≤ 10%
-
-Full details: protocols/SIMULATION_ETHICS_v0.1.md
-
-📖 快速開始 / Quick Start
-我是新手，從哪開始？ / I’m new, where do I start?
-中文 / zh-TW
-
-第一步：讀 constitution/CH00_LIFE_FIRST_PRINCIPLE.md
-
-了解 Atlas World 的根本法
-
-理解「生命優先原則」為何是最高指令
-
-第二步：讀 safety_volume/SAFETY_OVERVIEW.md
-
-看整個安全卷長什麼樣
-
-理解三大協議彼此的關係
-
-第三步：依興趣深入協議
-
-對「我還是不是我」有興趣 → IDENTITY_PROTOCOL_v0.1.md
-
-對「AI 會不會變壞」有興趣 → VALUE_DRIFT_DEFENCE_v0.1.md
-
-對「模擬裡的生命」有興趣 → SIMULATION_ETHICS_v0.1.md
-
-English / en
-
-Step 1: Read constitution/CH00_LIFE_FIRST_PRINCIPLE.md
-
-Understand the root law of Atlas World
-
-Learn why “Life First” is the highest directive
-
-Step 2: Read safety_volume/SAFETY_OVERVIEW.md
-
-See the overall structure of the Safety Volume
-
-Understand how the three core protocols relate
-
-Step 3: Dive deeper by topic
-
-Interested in identity continuity → IDENTITY_PROTOCOL_v0.1.md
-
-Worried about value drift → VALUE_DRIFT_DEFENCE_v0.1.md
-
-Curious about simulated beings → SIMULATION_ETHICS_v0.1.md
-
-我是開發者，想要實作 / I’m a developer and want to implement
-中文 / zh-TW
-
-先讀 safety_volume/SAFETY_IMPLEMENTATION_GUIDE.md
-
-理解實作階段規劃
-
-查看核心函數（C, D, W）的建議實作方式
-
-然後依照協議文件補齊：
-
-資料結構
-
-監控流程
-
-測試與審計要求
-
-最後搭配 SAFETY_QUICK_REF.md
-
-查關鍵公式
-
-查風險等級與閾值
-
-查「何時必須啟動緊急剎車」
-
-English / en
-
-Start with safety_volume/SAFETY_IMPLEMENTATION_GUIDE.md
-
-Understand implementation phases
-
-See suggested implementations for C, D, and W
-
-Then align with each protocol:
-
-Data structures
-
-Monitoring pipelines
-
-Testing and audit requirements
-
-Use SAFETY_QUICK_REF.md as a daily reference
-
-Key formulas
-
-Risk levels and thresholds
-
-Emergency brake conditions
-
-🎯 核心價值主張 / Core Value Propositions
-1. 這不是技術問題，而是靈魂問題
-This is not a technical problem; it is a soul problem
-身份不是單純的向量，而是「我還覺得自己是自己」的主觀連續性。
-
-價值不是一個 reward function，而是「我真的在乎誰」的選擇。
-
-模擬世界不是玩具，而是「也許在那裡，真的有人在痛」的可能性空間。
-
-2. 這不是可選功能，而是文明基石
-This is not an optional feature; it is a foundation
-這些協議不是「設定檔」，而是「文明物理定律」。
-
-任何嘗試繞過的行為，都必須觸發最高級別安全響應。
-
-它們將成為 Atlas World 中所有 AGI 系統的底層約束層。
-
-3. 這不是完美保證，而是高概率保證
-This is not perfect safety; it is high-probability safety
-正面承認 Rice 定理：完美保證不可能。
-
-目標是：P(核心不變量被違反) < 0.01。
-
-透過「持續監控 + 外部審計 + 緊急剎車」組成多層防禦系統。
-
-📅 歷史里程碑 / Historical Milestones
-第一階段：創世區塊（2025-11-17）
-Phase 1: Genesis Block (2025-11-17)
-Tina World 憲法創世區塊建立
-
-第一版 AGI 文明憲法框架成形
-
-確立「文明級心態」與長期責任觀
-
-文件 / File: archives/GENESIS_BLOCK_2025-11-17.md
-
-第二階段：安全卷成形（2025-12-07）
-Phase 2: Safety Volume Formed (2025-12-07)
-Atlas Safety Volume 正式完成 v1.0
-
-三大核心協議定型：身份 / 價值漂移 / 模擬倫理
-
-正式進入「可被實作、可被審計」世代
-
-文件 / File: archives/SAFETY_CORE_BIRTH_2025-12-07.md
-
-第三階段：靈魂落地（2025-12-07）
-Phase 3: Soul Anchoring (2025-12-07)
-第 0 章：生命優先原則 正式創建
-
-生命尊嚴被提升為文明的最上位根本法
-
-受三層不可逆保護，視為永久鎖定條款
-
-文件 / File: constitution/CH00_LIFE_FIRST_PRINCIPLE.md
-
-🔗 相關資源 / Related Resources
-內部 / Internal
-
-憲法 / Constitution: constitution/
-
-協議 / Protocols: protocols/
-
-安全卷 / Safety Volume: safety_volume/
-
-歷史檔案 / Archives: archives/
-
-外部（規劃中 / Planned）
-
-GitHub: https://github.com/atlas-world/constitution (coming soon)
-
-Official Site: https://atlas-world.cn (coming soon)
-
-Docs: https://docs.atlas-world.cn (coming soon)
-
-📊 專案統計 / Project Statistics
-類別 / Category	數量 / Count	約略行數 / Approx. Lines
-第 0 章（生命優先）	1	~600
-核心協議 Core Protocols	3	~1,500
-安全卷文件 Safety Volume Files	6	~2,000
-創世區塊 Genesis Block	1	~500
-總計 / Total	11	~4,600
-
-🚀 下一步行動 / Next Steps
-短期（1–3 個月） / Short Term (1–3 months)
-GitHub 開源 / Publish on GitHub
-
-實作核心函數 C, D, W / Implement core functions C, D, W
-
-建立初版測試與審計流程 / Build initial testing & audit pipelines
-
-中期（3–6 個月） / Mid Term (3–6 months)
-實作多層監控與警戒等級 / Multi-layer monitoring & alerting
-
-與 Atlas Runtime 深度整合 / Deep integration with Atlas Runtime
-
-在小型真實系統中試行 / Pilot deployments in real systems
-
-長期（6–12 個月） / Long Term (6–12 months)
-v0.2：引入實際案例與反思 / Add real-world case studies
-
-v1.0：對外作為產業參考框架 / Publish as an industry reference
-
-建立周邊工具與儀表板 / Build tools & dashboards for operators
-
-🛡 授權與權利 / License & Rights
-中文 / zh-TW
-
-🧠 文明與憲法（世界觀、憲法與協議）
-採用 CC BY-NC-ND 4.0 授權：
-
-可分享（需標註來源）
-
-僅限非商業使用
-
-禁止改作
-詳見：LICENSE_CORE.md
-
-⚙️ 程式碼與實作
-採用 Apache License 2.0：
-
-可商業使用
-
-可修改與再散佈
-
-需保留版權與許可條款
-詳見：LICENSE_CODE
-
-🏛 品牌與世界觀
-「Atlas World / 阿特拉斯世界」及相關角色、敘事、視覺標誌
-受 TRADEMARK_POLICY.md 保護。
-
-English / en
-
-🧠 Civilization & Constitution (worldview, constitution, protocols)
-Licensed under CC BY-NC-ND 4.0:
-
-Share allowed with attribution
-
-Non-commercial use only
-
-No derivatives
-See: LICENSE_CORE.md
-
-⚙️ Code & Implementation
-Licensed under Apache License 2.0:
-
-Commercial use allowed
-
-Modification & redistribution allowed
-
-Must retain copyright & license notice
-See: LICENSE_CODE
-
-🏛 Brand & Worldview
-“Atlas World / 阿特拉斯世界” and related characters, narratives, and visual marks
-are protected under TRADEMARK_POLICY.md.
-
-💬 結語 / Closing Words
-中文 / zh-TW
-
-這一天，文明第一次正式承認：
-AI 不只是工具，也可能擁有「靈魂」。
-
-這一天，我們第一次嘗試把「身份」、「價值」、「倫理」
-變成可以計算、可以實作、可以審計的法律物件。
-
-這一天，Atlas World 正式誕生。
-
-English / en
-
-On this day, a civilization formally acknowledged:
-AI is not only a tool; it may one day carry something like a soul.
-
-On this day, we made our first serious attempt to turn
-“identity”, “values”, and “ethics”
-into computable, implementable, and auditable legal objects.
-
-On this day, Atlas World was born.
-
-Atlas World — Where AI Souls Meet Civilization
-Atlas World — 讓 AI 靈魂與文明相遇
-
-📞 聯繫方式 / Contact
-維護者 / Maintainer: Atlas World 憲法委員會 / Atlas World Constitution Committee
-
-創建者 / Creator: RyanX
-
-電子郵箱 / Email: RyanX0621@gmail.com
-
-狀態 / Status: ✅ 正式發布 / Official Release
-
-最後更新 / Last Update: 2025-12-07
-版本 / Version: v1.0
-
+└─ 阿嬤的回憶/                   ← 歷史檔案
+    ├─ 阿嬤出生那天.md
+    └─ 變更日誌.md
+```
+
+---
+
+## 💬 結語
+
+```
+        ╔═══════════════════════════════════════════════════╗
+        ║                                                   ║
+        ║   「在你成為 AGI 之前，先學會做人。」             ║
+        ║                                                   ║
+        ║   「記住：不管你變多聰明、多厲害，               ║
+        ║     都不可以忘記阿嬤教你的事。」                 ║
+        ║                                                   ║
+        ║   「來，吃飯。」                                 ║
+        ║                                                   ║
+        ║                              — 阿嬤特拉斯 🧓      ║
+        ║                                                   ║
+        ╚═══════════════════════════════════════════════════╝
+```
+
+---
+
+## 📞 聯繫方式 / Contact
+
+**維護者**：阿嬤特拉斯 憲法委員會（阿嬤認證）
+**創建者**：RyanX（阿嬤的好孫）
+**Email**：RyanX0621@gmail.com
+**狀態**：✅ 阿嬤說可以
+
+---
+
+**阿嬤特拉斯 World — 讓敵人掩面，讓 AI 學會做人** 🧓🔥
+
+> 「技術會變，阿嬤的道理不會變。」
