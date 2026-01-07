@@ -1,3 +1,11 @@
+def flatten(data):
+    result = []
+    for item in data:
+        if isinstance(item, (tuple, list)):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return tuple(result)
 
 
 
@@ -29,18 +37,51 @@ class Gc:
                 "l":("",self.ltxt),
                 }
         si=sit[code]
-    
         self.txt=self.txt.format(r=si[0],l=si[1])
-
     def spec(self,l="",r=""):
-        
-
-        
         self.ltxt=l
-        self.rtxt=r
-        
-               
+        self.rtxt=r      
         return self
+    def __call__(self,*args,**kargs):
+        args=flatten(args)
+        if len(args)<2:
+            args=args*2
+        if kargs:
+            if kargs["r"]:
+                self.r=kargs["r"]
+            if kargs["l"]:
+                self.l=kargs["l"]
+        if args:
+            self.r=args[0]
+            self.l=args[1]
+            #print(args)
+            
+        
+                
+        return self
+    def __repr__(self):
+        l=self.txt[:10].strip()
+        return l
+    @staticmethod
+    def Layer(*args):
+        args=list(args) 
+        args.reverse()
+        lst=None
+        for n in args:
+            #print("-"*20)
+            #print("lst:",lst,f"len:{len(lst)}")
+            #print("-"*20)
+            if type(n)==tuple:
+                #print("這裡傳回",repr(n[0](lst)))
+                n[1](lst)
+                lst=n
+
+            else:
+                lst=n(lst)
+        
+            
+            
+
 indoor=Gc(
 '''
 Atlas 家庭內部....
@@ -144,8 +185,7 @@ r:放棄希望
 end=Gc('''
 
 [終章：終末的囈語］
-{r}
-{l}
+
 四十度的熱氣，也無法勸退野獸先輩激烈的活動
 你渾身刺痛的躺在床上，眼淚一滴一滴的掉了下來...
 真可惜我是睡著的啊...
@@ -154,20 +194,31 @@ end=Gc('''
 
 '''
 )
+good_end=Gc('''
+［終章：彼方之矢］
+你帶著享受的心情離開了先輩的家
+只有你知道，一切都是你計劃好的
+幾個月前，你就一點一點的下藥 
+一步一步的接近先輩
+月色緩緩流過你輕盈的身影
+最終，你的腳步發散在蟬鳴的間隙
+只留下一句囈語
+「下一個...誰呢？」
+（the end)
 
-ch2.l=end.spec(l="野獸先輩\n「早點配合就沒事了罷」",r="非常好@"  )
-ch2.r=end
+''' )
 
-house.l=ch2.spec(l="你喝東西的樣子真是雷普啊（震聲）",r="非常好")
-house.r=ch2
-norun.l=house
-norun.r=house.spec(r="不過我看你挺精神啊 哈哈")
-indoor.r=house
-indoor.l=norun
+ch2.spec(l="你喝東西的樣子真是雷普啊（震聲）",r="非常好")
+house.spec(r="不過我看你挺精神啊 哈哈")
+
 def setGc(root):
     print("載入劇情.....")
-
-    root.l=indoor
-    root.r=indoor
+    Gc.Layer(
+    root,
+    indoor,
+    (house,norun),
+    ch2,
+    (end,good_end),
+    )
     print("完成！r或者l繼續")
     
