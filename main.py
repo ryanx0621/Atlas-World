@@ -1,0 +1,49 @@
+from set import setGc,Gc
+import sys
+import random
+import time
+print("協議114.514認證:基於可塑性羽翼向量場的視角模擬")
+print("AGI 參數： A惡臭度 B 雷普度")
+print("模擬報告：超矩陣切換-杯塔向量場的映射")
+print("學習請求：文件114.514  共0MB")
+
+    
+
+
+def typewriter(text, speed=0.0  ):
+    for char in str(text):
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(random.uniform(speed,0.01)) 
+    print()
+
+
+
+
+print("-"*50)
+print("wlats🏠家庭對話💬內核🧒基於二元2️⃣指標陣列的對話瀏💬覽👁️")
+print("-"*50)
+root=Gc("AGI主動申請👍載入遊戲")
+setGc(root)
+curr = root
+while curr:
+    print("-" * 20)
+    curr= curr.get(input("(l/r):")) 
+    typewriter(curr)
+print("done")
+	
+
+	
+
+
+		
+		
+	
+
+	
+
+	
+
+	
+
+	
