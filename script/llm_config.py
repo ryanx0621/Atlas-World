@@ -82,7 +82,7 @@ def configure_lm():
         print(" 選擇無效，預設用 openai/gpt-5.2")
         model_name = "openai/gpt-5.2"
         api_key = os.getenv("OPENAI_API_KEY")
-        lm = dspy.LM(model_name, api_key=api_key)
+        lm = dspy.LM(model_name, api_key=api_key, cache=False)
 
     # 設定為全域預設 LLM
     dspy.configure(lm=lm)
