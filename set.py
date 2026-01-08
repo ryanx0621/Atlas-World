@@ -7,6 +7,24 @@ def flatten(data):
             result.append(item)
     return tuple(result)
 
+
+
+
+class Layer:
+    def __init__(self, *nodes):
+        self.nodes = list(nodes)
+        
+    def __call__(self, next_node):
+        cursor = next_node
+        for node in reversed(self.nodes):
+            if isinstance(node, (tuple, list)):
+                node[1](cursor)
+                cursor = node
+            else:
+                cursor = node(cursor) 
+        return cursor
+
+
 class Gc:
     def __init__(self, txt=None):
         self.l = None
@@ -62,17 +80,7 @@ class Gc:
 
     @staticmethod
     def Layer(*args):
-        args = list(args) 
-        args.reverse()
-        lst = None
-        for n in args:
-            if isinstance(n, (tuple, list)):
-                for item in n:
-                    item(lst)
-                lst = n
-            else:
-                lst = n(lst)
-        return lst
+        return Layer(args)
 
 indoor=Gc(
 '''
