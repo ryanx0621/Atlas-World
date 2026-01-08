@@ -1,5 +1,6 @@
-from set import setGc,Gc
+from Gctool import setGc,Gc,dumpGc,sfn
 import sys
+import os
 import random
 import time
 print("協議114.514認證:基於可塑性羽翼向量場的視角模擬")
@@ -16,24 +17,38 @@ def typewriter(text, speed=0.0  ):
     for char in str(text):
         sys.stdout.write(char)
         sys.stdout.flush()
-        time.sleep(random.uniform(speed,0.01)) 
+        time.sleep(random.uniform(speed,0.05)) 
     print()
 
 
 
 
 print("-"*50)
+
 print("wlats🏠家庭對話💬內核🧒基於二元2️⃣指標陣列的對話瀏💬覽👁️")
+print("不爽玩就輸入q滾一滾")
 print("-"*50)
 root=Gc("AGI主動申請👍載入遊戲")
 setGc(root)
 curr = root
+rm=True
 while curr:
     print("-" * 20)
-    curr= curr.get(input("(l/r):")) 
+    inp=input("(r/l):")
+    if inp=="q":
+        print("遊戲終止")
+        dumpGc(curr)
+        rm=False
+        break
+    while inp  not in "rl":
+        print("嗚嗚嗚嗚嗚嗚呃呃呃呃呃聽不懂啊")
+        inp=input("(r/l):")
+    curr= curr.get(inp)
     typewriter(curr)
+if rm and os.path.isfile(sfn):
+    os.remove(sfn)
+
 print("done")
-	
 
 	
 
