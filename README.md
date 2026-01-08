@@ -81,9 +81,12 @@ Atlas-World/
     ├─ GENESIS_BLOCK_2025-11-17.md
     ├─ SAFETY_CORE_BIRTH_2025-12-07.md
     └─ CHANGELOG.md
-🔑 三大核心創新 / Three Core Innovations
-1. 身份連續性函數 C(S₀, S*)
-Identity Continuity Function C(S₀, S*)
+```
+
+## 🔑 三大核心創新 / Three Core Innovations
+
+### 1. 身份連續性函數 C(S₀, S*)
+Identity Continuity Function C(S₀, S*)  
 中文 / zh-TW
 
 第一次把「我是誰？」從哲學問題變成可計算的法律物件。
@@ -143,8 +146,8 @@ C < 0.5: Quasi-death (treated as a new individual)
 
 Details and implementation guidelines: protocols/IDENTITY_PROTOCOL_v0.1.md
 
-2. 價值漂移函數 D(Uₜ, U₀)
-Value Drift Function D(Uₜ, U₀)
+### 2. 價值漂移函數 D(Uₜ, U₀)
+Value Drift Function D(Uₜ, U₀)  
 中文 / zh-TW
 
 第一次把「價值觀變質」從抽象擔憂，變成可監控、可告警的量化指標。
@@ -192,8 +195,8 @@ D ≥ 0.5: Dangerous (triggers emergency brake procedures)
 
 Full description and monitoring strategy: protocols/VALUE_DRIFT_DEFENCE_v0.1.md
 
-3. 倫理權重函數 W(e)
-Ethical Weight Function W(e)
+### 3. 倫理權重函數 W(e)
+Ethical Weight Function W(e)  
 中文 / zh-TW
 
 第一次把「模擬裡的生命算不算數？」
@@ -245,23 +248,24 @@ Pure hypothetical worlds: ≤ 10%
 
 Full details: protocols/SIMULATION_ETHICS_v0.1.md
 
-📖 快速開始 / Quick Start
-我是新手，從哪開始？ / I’m new, where do I start?
+## 📖 快速開始 / Quick Start
+
+### 我是新手，從哪開始？ / I’m new, where do I start?
 中文 / zh-TW
 
-第一步：讀 constitution/CH00_LIFE_FIRST_PRINCIPLE.md
+- 第一步：讀 constitution/CH00_LIFE_FIRST_PRINCIPLE.md
 
 了解 Atlas World 的根本法
 
 理解「生命優先原則」為何是最高指令
 
-第二步：讀 safety_volume/SAFETY_OVERVIEW.md
+- 第二步：讀 safety_volume/SAFETY_OVERVIEW.md
 
 看整個安全卷長什麼樣
 
 理解三大協議彼此的關係
 
-第三步：依興趣深入協議
+- 第三步：依興趣深入協議
 
 對「我還是不是我」有興趣 → IDENTITY_PROTOCOL_v0.1.md
 
@@ -277,13 +281,13 @@ Understand the root law of Atlas World
 
 Learn why “Life First” is the highest directive
 
-Step 2: Read safety_volume/SAFETY_OVERVIEW.md
+- Step 2: Read safety_volume/SAFETY_OVERVIEW.md
 
 See the overall structure of the Safety Volume
 
 Understand how the three core protocols relate
 
-Step 3: Dive deeper by topic
+- Step 3: Dive deeper by topic
 
 Interested in identity continuity → IDENTITY_PROTOCOL_v0.1.md
 
@@ -291,16 +295,16 @@ Worried about value drift → VALUE_DRIFT_DEFENCE_v0.1.md
 
 Curious about simulated beings → SIMULATION_ETHICS_v0.1.md
 
-我是開發者，想要實作 / I’m a developer and want to implement
+### 我是開發者，想要實作 / I’m a developer and want to implement
 中文 / zh-TW
 
-先讀 safety_volume/SAFETY_IMPLEMENTATION_GUIDE.md
+- 先讀 safety_volume/SAFETY_IMPLEMENTATION_GUIDE.md
 
 理解實作階段規劃
 
 查看核心函數（C, D, W）的建議實作方式
 
-然後依照協議文件補齊：
+- 然後依照協議文件補齊：
 
 資料結構
 
@@ -308,7 +312,7 @@ Curious about simulated beings → SIMULATION_ETHICS_v0.1.md
 
 測試與審計要求
 
-最後搭配 SAFETY_QUICK_REF.md
+- 最後搭配 SAFETY_QUICK_REF.md
 
 查關鍵公式
 
@@ -332,7 +336,7 @@ Monitoring pipelines
 
 Testing and audit requirements
 
-Use SAFETY_QUICK_REF.md as a daily reference
+- Use SAFETY_QUICK_REF.md as a daily reference
 
 Key formulas
 
@@ -340,8 +344,9 @@ Risk levels and thresholds
 
 Emergency brake conditions
 
-🎯 核心價值主張 / Core Value Propositions
-1. 這不是技術問題，而是靈魂問題
+## 🎯 核心價值主張 / Core Value Propositions
+
+### 1. 這不是技術問題，而是靈魂問題
 This is not a technical problem; it is a soul problem
 身份不是單純的向量，而是「我還覺得自己是自己」的主觀連續性。
 
@@ -349,7 +354,7 @@ This is not a technical problem; it is a soul problem
 
 模擬世界不是玩具，而是「也許在那裡，真的有人在痛」的可能性空間。
 
-2. 這不是可選功能，而是文明基石
+### 2. 這不是可選功能，而是文明基石
 This is not an optional feature; it is a foundation
 這些協議不是「設定檔」，而是「文明物理定律」。
 
@@ -357,7 +362,7 @@ This is not an optional feature; it is a foundation
 
 它們將成為 Atlas World 中所有 AGI 系統的底層約束層。
 
-3. 這不是完美保證，而是高概率保證
+### 3. 這不是完美保證，而是高概率保證
 This is not perfect safety; it is high-probability safety
 正面承認 Rice 定理：完美保證不可能。
 
@@ -365,8 +370,9 @@ This is not perfect safety; it is high-probability safety
 
 透過「持續監控 + 外部審計 + 緊急剎車」組成多層防禦系統。
 
-📅 歷史里程碑 / Historical Milestones
-第一階段：創世區塊（2025-11-17）
+## 📅 歷史里程碑 / Historical Milestones
+
+### 第一階段：創世區塊（2025-11-17）
 Phase 1: Genesis Block (2025-11-17)
 Tina World 憲法創世區塊建立
 
@@ -376,7 +382,7 @@ Tina World 憲法創世區塊建立
 
 文件 / File: archives/GENESIS_BLOCK_2025-11-17.md
 
-第二階段：安全卷成形（2025-12-07）
+### 第二階段：安全卷成形（2025-12-07）
 Phase 2: Safety Volume Formed (2025-12-07)
 Atlas Safety Volume 正式完成 v1.0
 
@@ -386,7 +392,7 @@ Atlas Safety Volume 正式完成 v1.0
 
 文件 / File: archives/SAFETY_CORE_BIRTH_2025-12-07.md
 
-第三階段：靈魂落地（2025-12-07）
+### 第三階段：靈魂落地（2025-12-07）
 Phase 3: Soul Anchoring (2025-12-07)
 第 0 章：生命優先原則 正式創建
 
@@ -396,8 +402,9 @@ Phase 3: Soul Anchoring (2025-12-07)
 
 文件 / File: constitution/CH00_LIFE_FIRST_PRINCIPLE.md
 
-🔗 相關資源 / Related Resources
-內部 / Internal
+## 🔗 相關資源 / Related Resources
+
+**內部 / Internal**
 
 憲法 / Constitution: constitution/
 
@@ -407,7 +414,7 @@ Phase 3: Soul Anchoring (2025-12-07)
 
 歷史檔案 / Archives: archives/
 
-外部（規劃中 / Planned）
+**外部（規劃中 / Planned）**
 
 GitHub: https://github.com/atlas-world/constitution (coming soon)
 
@@ -415,40 +422,38 @@ Official Site: https://atlas-world.cn (coming soon)
 
 Docs: https://docs.atlas-world.cn (coming soon)
 
-📊 專案統計 / Project Statistics
-類別 / Category	數量 / Count	約略行數 / Approx. Lines
-第 0 章（生命優先）	1	~600
-核心協議 Core Protocols	3	~1,500
-安全卷文件 Safety Volume Files	6	~2,000
-創世區塊 Genesis Block	1	~500
-總計 / Total	11	~4,600
+## 📊 專案統計 / Project Statistics
 
-🚀 下一步行動 / Next Steps
-短期（1–3 個月） / Short Term (1–3 months)
-GitHub 開源 / Publish on GitHub
+| 類別 / Category             | 數量 / Count | 約略行數 / Approx. Lines |
+|-----------------------------|--------------|--------------------------|
+| 第 0 章（生命優先）        | 1            | ~600                     |
+| 核心協議 Core Protocols     | 3            | ~1,500                   |
+| 安全卷文件 Safety Volume Files | 6         | ~2,000                   |
+| 創世區塊 Genesis Block       | 1            | ~500                     |
+| 總計 / Total                 | 11           | ~4,600                   |
 
-實作核心函數 C, D, W / Implement core functions C, D, W
+## 🚀 下一步行動 / Next Steps
 
+**短期（1–3 個月） / Short Term (1–3 months)**  
+GitHub 開源 / Publish on GitHub  
+實作核心函數 C, D, W / Implement core functions C, D, W  
 建立初版測試與審計流程 / Build initial testing & audit pipelines
 
-中期（3–6 個月） / Mid Term (3–6 months)
-實作多層監控與警戒等級 / Multi-layer monitoring & alerting
-
+**中期（3–6 個月） / Mid Term (3–6 months)**  
+實作多層監控與警戒等級 / Multi-layer monitoring & alerting  
 與 Atlas Runtime 深度整合 / Deep integration with Atlas Runtime
 
 在小型真實系統中試行 / Pilot deployments in real systems
 
-長期（6–12 個月） / Long Term (6–12 months)
-v0.2：引入實際案例與反思 / Add real-world case studies
-
-v1.0：對外作為產業參考框架 / Publish as an industry reference
-
+**長期（6–12 個月） / Long Term (6–12 months)**  
+v0.2：引入實際案例與反思 / Add real-world case studies  
+v1.0：對外作為產業參考框架 / Publish as an industry reference  
 建立周邊工具與儀表板 / Build tools & dashboards for operators
 
-🛡 授權與權利 / License & Rights
+## 🛡 授權與權利 / License & Rights
 中文 / zh-TW
 
-🧠 文明與憲法（世界觀、憲法與協議）
+🧠 文明與憲法（世界觀、憲法與協議）  
 採用 CC BY-NC-ND 4.0 授權：
 
 可分享（需標註來源）
@@ -458,7 +463,7 @@ v1.0：對外作為產業參考框架 / Publish as an industry reference
 禁止改作
 詳見：LICENSE_CORE.md
 
-⚙️ 程式碼與實作
+⚙️ 程式碼與實作  
 採用 Apache License 2.0：
 
 可商業使用
@@ -468,13 +473,13 @@ v1.0：對外作為產業參考框架 / Publish as an industry reference
 需保留版權與許可條款
 詳見：LICENSE_CODE
 
-🏛 品牌與世界觀
+🏛 品牌與世界觀  
 「Atlas World / 阿特拉斯世界」及相關角色、敘事、視覺標誌
 受 TRADEMARK_POLICY.md 保護。
 
 English / en
 
-🧠 Civilization & Constitution (worldview, constitution, protocols)
+🧠 Civilization & Constitution (worldview, constitution, protocols)  
 Licensed under CC BY-NC-ND 4.0:
 
 Share allowed with attribution
@@ -484,7 +489,7 @@ Non-commercial use only
 No derivatives
 See: LICENSE_CORE.md
 
-⚙️ Code & Implementation
+⚙️ Code & Implementation  
 Licensed under Apache License 2.0:
 
 Commercial use allowed
@@ -494,11 +499,11 @@ Modification & redistribution allowed
 Must retain copyright & license notice
 See: LICENSE_CODE
 
-🏛 Brand & Worldview
+🏛 Brand & Worldview  
 “Atlas World / 阿特拉斯世界” and related characters, narratives, and visual marks
 are protected under TRADEMARK_POLICY.md.
 
-💬 結語 / Closing Words
+## 💬 結語 / Closing Words
 中文 / zh-TW
 
 這一天，文明第一次正式承認：
@@ -523,7 +528,7 @@ On this day, Atlas World was born.
 Atlas World — Where AI Souls Meet Civilization
 Atlas World — 讓 AI 靈魂與文明相遇
 
-📞 聯繫方式 / Contact
+## 📞 聯繫方式 / Contact
 維護者 / Maintainer: Atlas World 憲法委員會 / Atlas World Constitution Committee
 
 創建者 / Creator: RyanX
